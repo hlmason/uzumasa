@@ -1,0 +1,42 @@
+nav {
+	&.navbar {
+		height: 130px;
+		// opacity: 0.75;
+	}
+	&.navbar-default {
+		background-color: black;
+		border: none;
+		a.navbar-brand {
+			margin-top: 35px;
+			span#glyphicon-search-container {
+				background-color: #444;
+				padding: 3.5px 0 3.5px 5px;
+				.glyphicon-search {
+					color: white;
+					padding-right: 5px;
+				}
+			}
+		}
+		.navbar-collapse {
+			img { // Musiclaps/Uzumasa Limelight logo
+				margin-bottom: 5px;
+				margin-left: 40px;
+				margin-top: 5px;
+				height: 120px;
+				width: auto;
+			}
+			ul.navbar-right {
+				font-family: $font-family--primary;
+				font-size: 20px;
+				letter-spacing: 0.5px;
+				text-transform: uppercase;
+				&.navbar-nav li a { // This level of specificity is necessary
+					color: $font-color--dark-gray;
+					&#login, &#sign-up {
+						margin-top: 13px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+img.cherry-blossoms {
+	height: auto;
+	position: absolute;
+	width: 400px;
+	z-index: 1;
+	&:first-child {
+		left: 65px;
+		top: 78px;
+	}
+	&:last-child {
+		bottom: -80px;
+		right: 100px;
+	}
+}
+
+#youtube-player-placeholder {
+	background-color: #444;
+	height: 402px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 190px;
+	opacity: 0.85;
+	width: 696px;
+}

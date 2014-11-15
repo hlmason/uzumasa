@@ -1,0 +1,36 @@
+/* ===================================
+    Element Selectors
+=================================== */
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: black;
+	background-image: url('#{$path--rel}/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+// ul {
+// 	padding-left: 0;
+// 	li { 
+// 		list-style-type: none;
+// 	}
+// }
+
+// a:hover, a:focus {
+// 	text-decoration: none;
+// }
+
+a:hover {
+	color: white !important;
+	cursor: pointer;
+}
