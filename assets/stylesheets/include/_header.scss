@@ -4,7 +4,10 @@ nav {
 		// opacity: 0.75;
 	}
 	&.navbar-default {
-		background-color: black;
+		background: -webkit-radial-gradient(55%, circle, black, transparent 90%);
+		background: -moz-radial-gradient(55%, circle, black, transparent 90%);
+		background: -o-radial-gradient(55%, circle, black, transparent 90%);
+		background: radial-gradient(circle at 55%, black, transparent 90%);
 		border: none;
 		a.navbar-brand {
 			margin-top: 35px;
