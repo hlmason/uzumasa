@@ -48,8 +48,14 @@
 			</div>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 
-				<a href="#">
-					<img src="<?php echo BASE_URL; ?>assets/images/musiclaps-uzumasa-logo.png" alt="Musiclaps and Uzumasa Limelight logos">
+				<a href="https://www.musiclaps.com/" target="blank">
+					<img id="musiclaps-logo" src="<?php echo BASE_URL; ?>assets/images/musiclaps-logo.png" alt="Musiclaps logo">
+				</a>
+
+				<img id="sword-slash" src="<?php echo BASE_URL; ?>assets/images/sword-slash.png" alt="sword slash">
+
+				<a href="http://www.uzumasalimelight.com/" target="blank">
+					<img id="uzumasa-limelight-logo" src="<?php echo BASE_URL; ?>assets/images/uzumasa-limelight-logo.png" alt="Uzumasa Limelight logo">
 				</a>
 				
 				<ul class="nav navbar-nav navbar-right" id="logged-out">

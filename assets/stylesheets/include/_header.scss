@@ -1,6 +1,6 @@
 nav {
 	&.navbar {
-		height: 130px;
+		height: 109px;
 		// opacity: 0.75;
 	}
 	&.navbar-default {
@@ -18,12 +18,18 @@ nav {
 			}
 		}
 		.navbar-collapse {
-			img { // Musiclaps/Uzumasa Limelight logo
-				margin-bottom: 5px;
-				margin-left: 40px;
-				margin-top: 5px;
-				height: 120px;
-				width: auto;
+			img {
+				&#musiclaps-logo {
+					margin-left: 55px;
+					margin-top: 17px;
+					height: 50px;
+					width: auto;
+				}
+				&#sword-slash, &#uzumasa-limelight-logo {
+					margin-top: 5px;
+					height: 100px;
+					width: auto;
+				}
 			}
 			ul.navbar-right {
 				font-family: $font-family--primary;
