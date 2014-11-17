@@ -1,26 +1,26 @@
 nav {
 	&.navbar {
 		height: 109px;
-		// opacity: 0.75;
 	}
 	&.navbar-default {
-		background: -webkit-radial-gradient(55%, circle, black, transparent 90%);
-		background: -moz-radial-gradient(55%, circle, black, transparent 90%);
-		background: -o-radial-gradient(55%, circle, black, transparent 90%);
-		background: radial-gradient(circle at 55%, black, transparent 90%);
+		background: -webkit-radial-gradient(60%, circle, black, transparent 90%);
+		background: -moz-radial-gradient(60%, circle, black, transparent 90%);
+		background: -o-radial-gradient(60%, circle, black, transparent 90%);
+		background: radial-gradient(circle at 60%, black, transparent 90%);
 		border: none;
-		a.navbar-brand {
-			margin-top: 35px;
-			span#glyphicon-search-container {
-				background-color: #444;
-				padding: 3.5px 0 3.5px 5px;
-				.glyphicon-search {
-					color: white;
-					padding-right: 5px;
+		.navbar-header {
+			width: 75%;
+			a.navbar-brand {
+				margin-top: 35px;
+				span#glyphicon-search-container {
+					background-color: #444;
+					padding: 3.5px 0 3.5px 5px;
+					.glyphicon-search {
+						color: white;
+						padding-right: 5px;
+					}
 				}
 			}
-		}
-		.navbar-collapse {
 			img {
 				&#musiclaps-logo {
 					margin-left: 55px;
@@ -34,16 +34,16 @@ nav {
 					width: auto;
 				}
 			}
-			ul.navbar-right {
-				font-family: $font-family--primary;
-				font-size: 20px;
-				letter-spacing: 0.5px;
-				text-transform: uppercase;
-				&.navbar-nav li a { // This level of specificity is necessary
-					color: $font-color--dark-gray;
-					&#login, &#sign-up {
-						margin-top: 13px;
-					}
+		}
+		ul.navbar-right {
+			font-family: $font-family--primary;
+			font-size: 20px;
+			letter-spacing: 0.5px;
+			text-transform: uppercase;
+			&.navbar-nav li a { // This level of specificity is necessary
+				color: #999;
+				&#login, &#sign-up {
+					margin-top: 13px;
 				}
 			}
 		}

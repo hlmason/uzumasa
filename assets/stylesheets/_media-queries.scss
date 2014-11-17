@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1676px) {
+	nav {
+		&.navbar-default {
+			ul.navbar-right{ 
+				&.navbar-nav li:last-child a {
+					color: lighten(#999, 10%);
+				}
+			}	
+		}
+	}
+}
+
+@media only screen and (max-width: 1318px) {
+	nav {
+		&.navbar-default {
+			ul.navbar-right{
+				&.navbar-nav {
+					li:last-child a {
+						color: lighten(#999, 20%);
+					}
+					li:first-child a {
+						color: lighten(#999, 10%);
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+// Bootstrap's "md" viewport width
+	nav {
+		&.navbar-default {
+			background: -webkit-radial-gradient(70%, circle, black, transparent 90%);
+			background: -moz-radial-gradient(70%, circle, black, transparent 90%);
+			background: -o-radial-gradient(70%, circle, black, transparent 90%);
+			background: radial-gradient(circle at 70%, black, transparent 90%);
+			.navbar-header {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 991px) {
+// Bootstrap's "sm" viewport width
+	nav {
+		&.navbar {
+			height: 90px;
+		}
+		&.navbar-default {
+			background: -webkit-radial-gradient(75%, circle, black, transparent 90%);
+			background: -moz-radial-gradient(75%, circle, black, transparent 90%);
+			background: -o-radial-gradient(75%, circle, black, transparent 90%);
+			background: radial-gradient(circle at 75%, black, transparent 90%);
+			.navbar-header {
+				a.navbar-brand {
+					margin-top: 25px;
+				}
+				img {
+					&#musiclaps-logo {
+						margin-left: 0;
+						height: 40px;
+						width: auto;
+					}
+					&#sword-slash, &#uzumasa-limelight-logo {
+						height: 80px;
+						width: auto;
+					}
+				}
+			}
+		}
+	}
+}

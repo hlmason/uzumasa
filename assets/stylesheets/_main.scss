@@ -1,6 +1,6 @@
 img.cherry-blossoms {
-	height: auto;
 	position: absolute;
+	height: auto;
 	width: 400px;
 	z-index: 1;
 	&:first-child {
@@ -15,10 +15,10 @@ img.cherry-blossoms {
 
 #youtube-player-placeholder {
 	background-color: #444;
-	height: 402px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 190px;
 	opacity: 0.85;
+	height: 402px;
 	width: 696px;
 }

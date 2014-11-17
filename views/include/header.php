@@ -23,20 +23,14 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <!-- [endif] -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/javascripts/customized.bootstrap.min.js"></script>
 	<script src="<?php echo BASE_URL; ?>assets/javascripts/modal.js"></script>
 </head>
 <body>
 
 	<nav class="navbar navbar-default">
 		<div class="container">
-			<div class="navbar-header"><!-- For Firefox and IE -->
-	            <button id="navbarToggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-	            </button>
-	            <!-- <h4 id="menuJS" data-toggle="collapse" data-target=".navbar-collapse">Menu</h4> -->
+			<div class="navbar-header">
 				<a class="navbar-brand">
 					<form action="#" method="get">
 						<input type="text" name="search" placeholder=" Search"><!-- The space before "Search" leaves space between "Search" and the search box -->
@@ -44,25 +38,23 @@
 							<span class="glyphicon glyphicon-search"></span>
 						</span>
 					</form>
+					
+					<a href="https://www.musiclaps.com/" target="blank">
+						<img id="musiclaps-logo" src="<?php echo BASE_URL; ?>assets/images/musiclaps-logo.png" alt="Musiclaps logo">
+					</a>
+					
+					<img id="sword-slash" src="<?php echo BASE_URL; ?>assets/images/sword-slash.png" alt="sword slash">
+					
+					<a href="http://www.uzumasalimelight.com/" target="blank">
+						<img id="uzumasa-limelight-logo" src="<?php echo BASE_URL; ?>assets/images/uzumasa-limelight-logo.png" alt="Uzumasa Limelight logo">
+					</a>
 				</a>
 			</div>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-
-				<a href="https://www.musiclaps.com/" target="blank">
-					<img id="musiclaps-logo" src="<?php echo BASE_URL; ?>assets/images/musiclaps-logo.png" alt="Musiclaps logo">
-				</a>
-
-				<img id="sword-slash" src="<?php echo BASE_URL; ?>assets/images/sword-slash.png" alt="sword slash">
-
-				<a href="http://www.uzumasalimelight.com/" target="blank">
-					<img id="uzumasa-limelight-logo" src="<?php echo BASE_URL; ?>assets/images/uzumasa-limelight-logo.png" alt="Uzumasa Limelight logo">
-				</a>
-				
-				<ul class="nav navbar-nav navbar-right" id="logged-out">
-					<li><a class="loginJS" id="login">Log In</a></li>
-					<li><a class="signUp" id="sign-up">Sign Up</a></li>
-				</ul>
-			</div>
+			
+			<ul class="nav navbar-nav navbar-right" id="logged-out">
+				<li><a class="loginJS" id="login">Log In</a></li>
+				<li><a class="signUp" id="sign-up">Sign Up</a></li>
+			</ul>
 		</div>
 	</nav>
 
