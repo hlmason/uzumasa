@@ -36,6 +36,10 @@ a:hover {
 	cursor: pointer;
 }
 
+h1, h2 {
+	font-family: $font-family--primary;
+}
+
 h1, h4 {
 	font-weight: 300;
 	letter-spacing: 0.5px;

@@ -2706,6 +2706,9 @@ a:hover {
   color: white !important;
   cursor: pointer; }
 
+h1, h2 {
+  font-family: "Century Gothic", sans-serif; }
+
 h1, h4 {
   font-weight: 300;
   letter-spacing: 0.5px; }
@@ -2767,21 +2770,26 @@ footer {
   z-index: 1; }
   #landing-page img.cherry-blossoms:first-child {
     left: 65px;
-    top: 78px; }
+    top: 178px; }
   #landing-page img.cherry-blossoms:last-child {
-    bottom: -80px;
+    bottom: 100px;
     right: 100px; }
+#landing-page #youtube-player-placeholder, #landing-page #youtube-player-advanced-placeholder {
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px; }
 #landing-page #youtube-player-placeholder {
   background-color: #444;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 109px;
-  opacity: 0.85;
-  height: 402px;
-  width: 696px; }
+  height: 405px;
+  margin-top: 209px;
+  opacity: 0.85; }
+#landing-page #youtube-player-advanced-placeholder {
+  border-right: 1px dashed #444;
+  border-bottom: 1px dashed #444;
+  border-left: 1px dashed #444;
+  height: 200px; }
 #landing-page h1 {
-  font-family: "Century Gothic", sans-serif;
-  margin-top: 60px;
+  margin-top: 210px;
   margin-left: 15px; }
 #landing-page .video-thumbnail-container {
   height: 160px;
@@ -2790,7 +2798,6 @@ footer {
     margin-top: 58.76px; }
   #landing-page .video-thumbnail-container .video-thumbnail-placeholder {
     background-color: #444;
-    opacity: 0.85;
     height: 144px;
     width: 245px; }
 #landing-page h4 {
