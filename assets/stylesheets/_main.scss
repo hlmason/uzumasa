@@ -1,24 +1,54 @@
-img.cherry-blossoms {
-	position: absolute;
-	height: auto;
-	width: 400px;
-	z-index: 1;
-	&:first-child {
-		left: 65px;
-		top: 78px;
+#landing-page {
+	img.cherry-blossoms {
+		position: absolute;
+		height: auto;
+		width: 400px;
+		z-index: 1;
+		&:first-child {
+			left: 65px;
+			top: 78px;
+		}
+		&:last-child {
+			bottom: -80px;
+			right: 100px;
+		}
 	}
-	&:last-child {
-		bottom: -80px;
-		right: 100px;
+	#youtube-player-placeholder {
+		background-color: #444;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 109px; // Same height as .navbar
+		opacity: 0.85;
+		height: 402px;
+		width: 696px;
 	}
-}
-
-#youtube-player-placeholder {
-	background-color: #444;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 190px;
-	opacity: 0.85;
-	height: 402px;
-	width: 696px;
+	h1 {
+		font-family: $font-family--primary;
+		margin-top: 60px;
+		margin-left: 15px;
+	}
+	.video-thumbnail-container {
+		height: 160px;
+		width: 100%;
+		&:not(.first-video-row) {
+			margin-top: 77.52px;
+		}
+		.video-thumbnail-placeholder {
+			background-color: #444;
+			opacity: 0.85;
+			height: 144px;
+			width: 245px;
+		}
+	}
+	h4 {
+		margin-bottom: 0;
+		margin-left: 2px;
+		&.video-title { // No idea why "&.first-child" doesn't work but "&:last-child" works
+			margin-top: 0 ;
+		}
+		&:last-child {
+			color: darken($font-color--body, 30%);
+			margin-top: 2px;
+		}
+	}
 }

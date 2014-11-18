@@ -10,6 +10,7 @@ body {
 	background-image: url('#{$path--rel}/background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: $font-color--body;
 	height: 100%;
 	width: 100%;
 }
@@ -33,4 +34,13 @@ img {
 a:hover {
 	color: white !important;
 	cursor: pointer;
+}
+
+h1, h4 {
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+
+h4 {
+	font-family: $font-family--secondary;
 }

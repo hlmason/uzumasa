@@ -2694,6 +2694,7 @@ body {
   background-image: url("../../assets/images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
   height: 100%;
   width: 100%; }
 
@@ -2705,6 +2706,13 @@ a:hover {
   color: white !important;
   cursor: pointer; }
 
+h1, h4 {
+  font-weight: 300;
+  letter-spacing: 0.5px; }
+
+h4 {
+  font-family: sans-serif; }
+
 nav.navbar {
   height: 109px; }
 nav.navbar-default {
@@ -2712,7 +2720,8 @@ nav.navbar-default {
   background: -moz-radial-gradient(60%, circle, black, transparent 90%);
   background: -o-radial-gradient(60%, circle, black, transparent 90%);
   background: radial-gradient(circle at 60%, black, transparent 90%);
-  border: none; }
+  border: none;
+  margin-bottom: 0; }
   nav.navbar-default .navbar-header {
     width: 75%; }
     nav.navbar-default .navbar-header a.navbar-brand {
@@ -2724,8 +2733,8 @@ nav.navbar-default {
           color: white;
           padding-right: 5px; }
     nav.navbar-default .navbar-header img#musiclaps-logo {
-      margin-left: 55px;
       margin-top: 17px;
+      margin-left: 55px;
       height: 50px;
       width: auto; }
     nav.navbar-default .navbar-header img#sword-slash, nav.navbar-default .navbar-header img#uzumasa-limelight-logo {
@@ -2742,26 +2751,47 @@ nav.navbar-default {
       nav.navbar-default ul.navbar-right.navbar-nav li a#login, nav.navbar-default ul.navbar-right.navbar-nav li a#sign-up {
         margin-top: 13px; }
 
-img.cherry-blossoms {
+#landing-page img.cherry-blossoms {
   position: absolute;
   height: auto;
   width: 400px;
   z-index: 1; }
-  img.cherry-blossoms:first-child {
+  #landing-page img.cherry-blossoms:first-child {
     left: 65px;
     top: 78px; }
-  img.cherry-blossoms:last-child {
+  #landing-page img.cherry-blossoms:last-child {
     bottom: -80px;
     right: 100px; }
-
-#youtube-player-placeholder {
+#landing-page #youtube-player-placeholder {
   background-color: #444;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 190px;
+  margin-top: 109px;
   opacity: 0.85;
   height: 402px;
   width: 696px; }
+#landing-page h1 {
+  font-family: "Century Gothic", sans-serif;
+  margin-top: 60px;
+  margin-left: 15px; }
+#landing-page .video-thumbnail-container {
+  height: 160px;
+  width: 100%; }
+  #landing-page .video-thumbnail-container:not(.first-video-row) {
+    margin-top: 77.52px; }
+  #landing-page .video-thumbnail-container .video-thumbnail-placeholder {
+    background-color: #444;
+    opacity: 0.85;
+    height: 144px;
+    width: 245px; }
+#landing-page h4 {
+  margin-bottom: 0;
+  margin-left: 2px; }
+  #landing-page h4.video-title {
+    margin-top: 0; }
+  #landing-page h4:last-child {
+    color: #b3b3b3;
+    margin-top: 2px; }
 
 @media only screen and (max-width: 1676px) {
   nav.navbar-default ul.navbar-right.navbar-nav li:last-child a {

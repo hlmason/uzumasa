@@ -8,6 +8,7 @@ nav {
 		background: -o-radial-gradient(60%, circle, black, transparent 90%);
 		background: radial-gradient(circle at 60%, black, transparent 90%);
 		border: none;
+		margin-bottom: 0;
 		.navbar-header {
 			width: 75%;
 			a.navbar-brand {
@@ -23,8 +24,8 @@ nav {
 			}
 			img {
 				&#musiclaps-logo {
-					margin-left: 55px;
 					margin-top: 17px;
+					margin-left: 55px;
 					height: 50px;
 					width: auto;
 				}
