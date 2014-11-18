@@ -13,7 +13,7 @@
 			right: 100px;
 		}
 	}
-	#youtube-player-placeholder, #youtube-player-advanced-placeholder { // Placeholder
+	#youtube-player-placeholder, #youtube-player-advanced-settings-placeholder { // Placeholder
 		margin-right: auto;
 		margin-left: auto;
 		width: 700px;
@@ -24,7 +24,7 @@
 		margin-top: 209px;
 		opacity: 0.85;
 	}
-	#youtube-player-advanced-placeholder { // Placeholder
+	#youtube-player-advanced-settings-placeholder { // Placeholder
 		border-right: 1px dashed #444;
 		border-bottom: 1px dashed #444;
 		border-left: 1px dashed #444;
@@ -32,29 +32,66 @@
 	}
 	h1 {
 		margin-top: 210px;
+	}
+	h1:not(#ranking) {
 		margin-left: 15px;
 	}
-	.video-thumbnail-container {
-		height: 160px;
-		width: 100%;
-		&:not(.first-video-row) {
-			margin-top: 58.76px; // h1 height (40px) + margin-bottom (18.760px)
-		}
-		.video-thumbnail-placeholder {
-			background-color: #444;
-			height: 144px;
-			width: 245px;
-		}
+	.second-video-row {
+		margin-top: -409px;
+	}
+	.third-video-row {
+		margin-top: -145px;
+	}
+	.video-thumbnail-placeholder { // Placeholder
+		background-color: #444;
+		height: 144px;
+		width: 245px;
 	}
 	h4 {
 		margin-bottom: 0;
 		margin-left: 2px;
 		&.video-title { // No idea why "&.first-child" doesn't work but "&:last-child" works
-			margin-top: 0 ;
+			margin-top: 15px;
 		}
 		&:last-child {
 			color: darken($font-color--body, 30%);
 			margin-top: 2px;
+		}
+	}
+	#ranking-container {
+		h1#ranking {
+			background-color: #222;
+			margin-bottom: 0;
+			margin-left: -15px; // Aligns "Ranking" container with user stats container
+			margin-right: -15px; // Aligns "Ranking" container with user stats container
+			padding: 15px;
+		}
+		.user-stats {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			&:nth-child(even) {
+				background-color: #111;
+			}
+			&:nth-child(odd) {
+				background-color: #222;
+			}
+			h3 {
+				margin-top: 0;
+				&:nth-child(2) {
+					font-weight: 300;
+				}
+				span {
+					color: $font-color--dark-gray;
+					display: block;
+					font-family: $font-family--secondary;
+					font-size: 14px;
+				}
+			}
+			img {
+				float: right;
+				height: auto;
+				width: 100px;
+			}
 		}
 	}
 }

@@ -2706,12 +2706,12 @@ a:hover {
   color: white !important;
   cursor: pointer; }
 
-h1, h2 {
-  font-family: "Century Gothic", sans-serif; }
-
-h1, h4 {
+h1, h3, h4 {
   font-weight: 300;
   letter-spacing: 0.5px; }
+
+h1, h3 {
+  font-family: "Century Gothic", sans-serif; }
 
 h4, footer {
   font-family: sans-serif; }
@@ -2774,7 +2774,7 @@ footer {
   #landing-page img.cherry-blossoms:last-child {
     bottom: 100px;
     right: 100px; }
-#landing-page #youtube-player-placeholder, #landing-page #youtube-player-advanced-placeholder {
+#landing-page #youtube-player-placeholder, #landing-page #youtube-player-advanced-settings-placeholder {
   margin-right: auto;
   margin-left: auto;
   width: 700px; }
@@ -2783,31 +2783,57 @@ footer {
   height: 405px;
   margin-top: 209px;
   opacity: 0.85; }
-#landing-page #youtube-player-advanced-placeholder {
+#landing-page #youtube-player-advanced-settings-placeholder {
   border-right: 1px dashed #444;
   border-bottom: 1px dashed #444;
   border-left: 1px dashed #444;
   height: 200px; }
 #landing-page h1 {
-  margin-top: 210px;
+  margin-top: 210px; }
+#landing-page h1:not(#ranking) {
   margin-left: 15px; }
-#landing-page .video-thumbnail-container {
-  height: 160px;
-  width: 100%; }
-  #landing-page .video-thumbnail-container:not(.first-video-row) {
-    margin-top: 58.76px; }
-  #landing-page .video-thumbnail-container .video-thumbnail-placeholder {
-    background-color: #444;
-    height: 144px;
-    width: 245px; }
+#landing-page .second-video-row {
+  margin-top: -409px; }
+#landing-page .third-video-row {
+  margin-top: -145px; }
+#landing-page .video-thumbnail-placeholder {
+  background-color: #444;
+  height: 144px;
+  width: 245px; }
 #landing-page h4 {
   margin-bottom: 0;
   margin-left: 2px; }
   #landing-page h4.video-title {
-    margin-top: 0; }
+    margin-top: 15px; }
   #landing-page h4:last-child {
     color: #b3b3b3;
     margin-top: 2px; }
+#landing-page #ranking-container h1#ranking {
+  background-color: #222;
+  margin-bottom: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 15px; }
+#landing-page #ranking-container .user-stats {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  #landing-page #ranking-container .user-stats:nth-child(even) {
+    background-color: #111; }
+  #landing-page #ranking-container .user-stats:nth-child(odd) {
+    background-color: #222; }
+  #landing-page #ranking-container .user-stats h3 {
+    margin-top: 0; }
+    #landing-page #ranking-container .user-stats h3:nth-child(2) {
+      font-weight: 300; }
+    #landing-page #ranking-container .user-stats h3 span {
+      color: #888888;
+      display: block;
+      font-family: sans-serif;
+      font-size: 14px; }
+  #landing-page #ranking-container .user-stats img {
+    float: right;
+    height: auto;
+    width: 100px; }
 
 @media only screen and (max-width: 1676px) {
   nav.navbar-default ul.navbar-right.navbar-nav li:last-child a {
