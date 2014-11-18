@@ -2710,7 +2710,7 @@ h1, h4 {
   font-weight: 300;
   letter-spacing: 0.5px; }
 
-h4 {
+h4, footer {
   font-family: sans-serif; }
 
 nav.navbar {
@@ -2751,6 +2751,15 @@ nav.navbar-default {
       nav.navbar-default ul.navbar-right.navbar-nav li a#login, nav.navbar-default ul.navbar-right.navbar-nav li a#sign-up {
         margin-top: 13px; }
 
+.space-above-footer {
+  height: 109px; }
+
+footer {
+  color: gray;
+  font-size: 12px;
+  padding-bottom: 30px;
+  text-align: center; }
+
 #landing-page img.cherry-blossoms {
   position: absolute;
   height: auto;
@@ -2778,7 +2787,7 @@ nav.navbar-default {
   height: 160px;
   width: 100%; }
   #landing-page .video-thumbnail-container:not(.first-video-row) {
-    margin-top: 77.52px; }
+    margin-top: 58.76px; }
   #landing-page .video-thumbnail-container .video-thumbnail-placeholder {
     background-color: #444;
     opacity: 0.85;

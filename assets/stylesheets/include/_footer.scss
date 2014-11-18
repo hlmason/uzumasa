@@ -1,0 +1,10 @@
+.space-above-footer {
+	height: 109px; // Same height as .navbar
+}
+
+footer {
+	color: darken($font-color--body, 50%);
+	font-size: 12px;
+	padding-bottom: 30px;
+	text-align: center;
+}
