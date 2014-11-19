@@ -13,7 +13,7 @@
 			<form class="registrationForm" id="resetForm" action="#" method="post">
 				<div class="modal-body email-registration">
 					<div id="validationErrorMessages"></div>
-					<img src="<?php echo BASE_URL; ?>assets/images/modal/dots.png" alt="four dots">
+					<img src="<?php echo BASE_URL; ?>assets/images/modals/dots.png" alt="four dots">
 					<div>
 						<label class="email" for="email">Email Address</label>
 						<input id="email" type="email" name="email">
@@ -62,7 +62,7 @@
 					</div>
 					
 					<div id="captcha">
-						<img src="<?php echo BASE_URL; ?>assets/images/modal/captcha.png" alt="captcha"><!-- Hard-coded placeholder -->
+						<img src="<?php echo BASE_URL; ?>assets/images/modals/captcha.png" alt="captcha"><!-- Hard-coded placeholder -->
 						<label class="captcha" for="captcha">Please type in the above text</label>
 						<input type="text" name="captcha">
 					</div>
