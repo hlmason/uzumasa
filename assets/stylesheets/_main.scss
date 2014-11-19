@@ -47,20 +47,20 @@
 		height: 144px;
 		width: 245px;
 	}
-	h4 {
+	h4 { // "Most Viewed" and "Ranking"
 		margin-bottom: 0;
 		margin-left: 2px;
 		&.video-title { // No idea why "&.first-child" doesn't work but "&:last-child" works
 			margin-top: 15px;
 		}
-		&:last-child {
+		&:last-child { // video description
 			color: darken($font-color--body, 30%);
 			margin-top: 2px;
 		}
 	}
 	#ranking-container {
 		h1#ranking {
-			background-color: #222;
+			background-color: $font-color--dark-gray;
 			margin-bottom: 0;
 			margin-left: -15px; // Aligns "Ranking" container with user stats container
 			margin-right: -15px; // Aligns "Ranking" container with user stats container
@@ -70,18 +70,15 @@
 			padding-top: 15px;
 			padding-bottom: 15px;
 			&:nth-child(even) {
-				background-color: #111;
+				background-color: $font-color--darkest-gray;
 			}
 			&:nth-child(odd) {
-				background-color: #222;
+				background-color: $font-color--dark-gray;
 			}
-			h3 {
+			h3 { // Rank number and username
 				margin-top: 0;
-				&:nth-child(2) {
-					font-weight: 300;
-				}
 				span {
-					color: $font-color--dark-gray;
+					color: $font-color--medium-gray;
 					display: block;
 					font-family: $font-family--secondary;
 					font-size: 14px;

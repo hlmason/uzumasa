@@ -4,9 +4,9 @@ nav {
 	}
 	&.navbar-default {
 		background: -webkit-radial-gradient(60%, circle, black, transparent 90%);
-		background: -moz-radial-gradient(60%, circle, black, transparent 90%);
-		background: -o-radial-gradient(60%, circle, black, transparent 90%);
-		background: radial-gradient(circle at 60%, black, transparent 90%);
+		background:    -moz-radial-gradient(60%, circle, black, transparent 90%);
+		background:      -o-radial-gradient(60%, circle, black, transparent 90%);
+		background:       radial-gradient(circle at 60%, black, transparent 90%);
 		border: none;
 		margin-bottom: 0;
 		.navbar-header {
@@ -42,7 +42,7 @@ nav {
 			letter-spacing: 0.5px;
 			text-transform: uppercase;
 			&.navbar-nav li a { // This level of specificity is necessary
-				color: #999;
+				color: $font-color--medium-light-gray;
 				&#login, &#sign-up {
 					margin-top: 13px;
 				}
