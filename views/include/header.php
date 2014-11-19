@@ -40,13 +40,13 @@
 					</form>
 					
 					<a href="https://www.musiclaps.com/" target="blank">
-						<img id="musiclaps-logo" src="<?php echo BASE_URL; ?>assets/images/musiclaps-logo.png" alt="Musiclaps logo">
+						<img id="musiclaps-logo" src="<?php echo BASE_URL; ?>assets/images/header/musiclaps-logo.png" alt="Musiclaps logo">
 					</a>
 					
-					<img id="sword-slash" src="<?php echo BASE_URL; ?>assets/images/sword-slash.png" alt="sword slash">
+					<img id="sword-slash" src="<?php echo BASE_URL; ?>assets/images/header/sword-slash.png" alt="sword slash">
 					
 					<a href="http://www.uzumasalimelight.com/" target="blank">
-						<img id="uzumasa-limelight-logo" src="<?php echo BASE_URL; ?>assets/images/uzumasa-limelight-logo.png" alt="Uzumasa Limelight logo">
+						<img id="uzumasa-limelight-logo" src="<?php echo BASE_URL; ?>assets/images/header/uzumasa-limelight-logo.png" alt="Uzumasa Limelight logo">
 					</a>
 				</a>
 			</div>
