@@ -2702,13 +2702,21 @@ img {
   max-width: 100%;
   height: auto; }
 
+ul {
+  padding-left: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
 a:hover {
   color: white !important;
   cursor: pointer; }
 
-h1, h3, h4 {
-  font-weight: 300;
+h1, h2, h3, h4 {
   letter-spacing: 0.5px; }
+
+h1, h3, h4 {
+  font-weight: 300; }
 
 h1, h3 {
   font-family: "Century Gothic", sans-serif; }
@@ -2750,9 +2758,74 @@ nav.navbar-default {
     letter-spacing: 0.5px;
     text-transform: uppercase; }
     nav.navbar-default ul.navbar-right.navbar-nav li a {
-      color: #999; }
+      color: #999999; }
       nav.navbar-default ul.navbar-right.navbar-nav li a#login, nav.navbar-default ul.navbar-right.navbar-nav li a#sign-up {
         margin-top: 13px; }
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0s linear;
+  -moz-transition: opacity 0s linear;
+  -ms-transition: opacity 0s linear;
+  -o-transition: opacity 0s linear;
+  transition: opacity 0s linear; }
+
+.modal-content {
+  background-color: #222222;
+  opacity: 0.95; }
+  .modal-content .modal-header {
+    border-bottom: none; }
+    .modal-content .modal-header button.close {
+      background-color: #222222;
+      border: none;
+      color: #888888;
+      float: right;
+      font-size: 21px; }
+      .modal-content .modal-header button.close:hover, .modal-content .modal-header button.close:focus {
+        color: white; }
+    .modal-content .modal-header h2 {
+      font-weight: normal; }
+  .modal-content .modal-body {
+    text-align: center; }
+    .modal-content .modal-body h3 {
+      color: #999999;
+      margin-top: 0; }
+    .modal-content .modal-body li {
+      display: inline-block; }
+      .modal-content .modal-body li img {
+        height: 35px;
+        width: 35px; }
+        .modal-content .modal-body li img:not(.facebook-icon) {
+          margin-left: 10px; }
+        .modal-content .modal-body li img.twitter-icon {
+          background-color: #55ACEE;
+          border-radius: 3px;
+          padding: 3px; }
+    .modal-content .modal-body#username-and-password {
+      padding-top: 0; }
+      .modal-content .modal-body#username-and-password input {
+        font-size: 16px;
+        height: 35px;
+        width: 90%; }
+        .modal-content .modal-body#username-and-password input:first-child {
+          margin-bottom: 15px; }
+  .modal-content .modal-footer {
+    border-top: none; }
+    .modal-content .modal-footer a {
+      float: left;
+      font-size: 16px;
+      margin-top: 5px;
+      margin-left: 15px; }
+      .modal-content .modal-footer a:hover {
+        color: #4f93ce !important; }
+    .modal-content .modal-footer input {
+      background-color: #666666;
+      border: none;
+      font-size: 16px;
+      margin-right: 15px;
+      padding: 6px 12px; }
+      .modal-content .modal-footer input:hover {
+        background-color: gray; }
 
 .space-above-footer {
   height: 109px; }
@@ -2809,7 +2882,7 @@ footer {
     color: #b3b3b3;
     margin-top: 2px; }
 #landing-page #ranking-container h1#ranking {
-  background-color: #222;
+  background-color: #222222;
   margin-bottom: 0;
   margin-left: -15px;
   margin-right: -15px;
@@ -2818,13 +2891,11 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px; }
   #landing-page #ranking-container .user-stats:nth-child(even) {
-    background-color: #111; }
+    background-color: #111111; }
   #landing-page #ranking-container .user-stats:nth-child(odd) {
-    background-color: #222; }
+    background-color: #222222; }
   #landing-page #ranking-container .user-stats h3 {
     margin-top: 0; }
-    #landing-page #ranking-container .user-stats h3:nth-child(2) {
-      font-weight: 300; }
     #landing-page #ranking-container .user-stats h3 span {
       color: #888888;
       display: block;

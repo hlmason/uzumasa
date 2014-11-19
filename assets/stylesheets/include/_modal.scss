@@ -1,0 +1,84 @@
+.fade {
+	opacity: 0; // Makes modal fade non-transparent
+	-webkit-transition: opacity 0s linear; // Speeds up modal display
+	   -moz-transition: opacity 0s linear; // Speeds up modal display
+	    -ms-transition: opacity 0s linear; // Speeds up modal display
+	     -o-transition: opacity 0s linear; // Speeds up modal display
+	        transition: opacity 0s linear; // Speeds up modal display
+}
+
+.modal-content {
+	background-color: $font-color--dark-gray;
+	opacity: 0.95;
+	.modal-header {
+		border-bottom: none;
+		button.close {
+			background-color: $font-color--dark-gray;
+			border: none;
+			color: $font-color--medium-gray;
+			float: right;
+			font-size: 21px;
+			&:hover, &:focus {
+				color: white;	
+			}
+		}
+		h2 {
+			font-weight: normal;
+		}
+	}
+	.modal-body {
+		text-align: center;
+		h3 { // "Login using"
+			color: $font-color--medium-light-gray;
+			margin-top: 0;
+		}
+		li {
+			display: inline-block;
+			img {
+				height: 35px;
+				width: 35px;
+				&:not(.facebook-icon) {
+					margin-left: 10px;
+				}
+				&.twitter-icon { // When using the bird with other logos and graphic elements, maintain a safety space that equals 200% the size of the square around the bird.
+					background-color: #55ACEE;
+					border-radius: 3px;
+					padding: 3px;
+				}
+			}
+		}
+		&#username-and-password {
+			padding-top: 0;
+			input { // "Username" and "Password"
+				font-size: 16px;
+				height: 35px;
+				width: 90%;
+				&:first-child { // "Username" only
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+	.modal-footer {
+		border-top: none;
+		a { // "Forgot Password"
+			float: left;
+			font-size: 16px;
+			margin-top: 5px;
+			margin-left: 15px;
+			&:hover {
+				color: lighten(#337AB7, 10%) !important;
+			}
+		}
+		input {
+			background-color: $font-color--medium-dark-gray;
+			border: none;
+			font-size: 16px;
+			margin-right: 15px;
+			padding: 6px 12px;
+			&:hover {
+				background-color: lighten($font-color--medium-dark-gray, 10%);
+			}
+		}
+	}
+}
