@@ -43,7 +43,7 @@ nav {
 			text-transform: uppercase;
 			&.navbar-nav li a { // This level of specificity is necessary
 				color: $font-color--medium-light-gray;
-				&#login, &#sign-up {
+				&#login, &#register {
 					margin-top: 13px;
 				}
 			}

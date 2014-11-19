@@ -9,7 +9,11 @@
 
 .modal-content {
 	background-color: $font-color--dark-gray;
+	font-family: $font-family--primary;
 	opacity: 0.95;
+	a:hover {
+		color: lighten(#337AB7, 10%) !important;
+	}
 	.modal-header {
 		border-bottom: none;
 		button.close {
@@ -23,7 +27,15 @@
 			}
 		}
 		h2 {
+			font-size: 24px;
 			font-weight: normal;
+			letter-spacing: 1px;
+		}
+		&.email-registration {
+			padding-bottom: 10px;
+		}
+		&.register, &#login {
+			padding-bottom: 0;
 		}
 	}
 	.modal-body {
@@ -47,10 +59,54 @@
 				}
 			}
 		}
+		&.email-registration {
+			padding-top: 0;
+			label.birth-date, label.gender, #checkbox-agree {
+				margin-top: 20px;
+			}
+			label {
+				margin-top: 15px;
+				margin-bottom: 2px;
+				&:not(.birth-date, .gender) {
+					display: block;
+				}
+				&.email {
+					margin-top: 10px;
+				}
+			}
+			#checkbox-agree {
+				font-size: 14px;
+				input {
+					font-weight: 300;
+					margin-top: 4px; // Keeps text at the same height as checkbox
+					width: 12px; // Keeps text inline with checkbox
+				}
+			}
+			input {
+				width: 90%;
+				&.checkbox {
+					display: inline-block;
+				}
+			}
+			.password-req {
+				color: orange;
+				font-size: 12px;
+				margin-bottom: 2px;
+			}
+			#captcha {
+				img {
+					margin-top: 25px;
+					height: 50px;
+					width: 210px;					
+				}
+				label {
+					margin-top: 10px;
+				}
+			}
+		}
 		&#username-and-password {
 			padding-top: 0;
 			input { // "Username" and "Password"
-				font-size: 16px;
 				height: 35px;
 				width: 90%;
 				&:first-child { // "Username" only
@@ -61,24 +117,40 @@
 	}
 	.modal-footer {
 		border-top: none;
+		&.register, &#email-registration {
+			padding-top: 0;
+			padding-bottom: 20px;
+		}
+		&.register {
+			text-align: center;
+		}
+		&#email-registration input {
+			width: 90%;
+		}
 		a { // "Forgot Password"
 			float: left;
 			font-size: 16px;
 			margin-top: 5px;
 			margin-left: 15px;
-			&:hover {
-				color: lighten(#337AB7, 10%) !important;
-			}
 		}
-		input {
+		button, input {
 			background-color: $font-color--medium-dark-gray;
 			border: none;
-			font-size: 16px;
-			margin-right: 15px;
-			padding: 6px 12px;
+			padding-top: 6px;
+			padding-bottom: 6px;
 			&:hover {
 				background-color: lighten($font-color--medium-dark-gray, 10%);
 			}
+		}
+		button {
+			font-size: 16px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		input { // "Log in"
+			margin-right: 15px;
+			padding-right: 12px;
+			padding-left: 12px;
 		}
 	}
 }

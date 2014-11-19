@@ -2712,10 +2712,10 @@ a:hover {
   color: white !important;
   cursor: pointer; }
 
-h1, h2, h3, h4 {
+h1, h3, h4 {
   letter-spacing: 0.5px; }
 
-h1, h3, h4 {
+h1, h3, h4, label {
   font-weight: 300; }
 
 h1, h3 {
@@ -2723,6 +2723,9 @@ h1, h3 {
 
 h4, footer {
   font-family: sans-serif; }
+
+label, input {
+  font-size: 16px; }
 
 nav.navbar {
   height: 109px; }
@@ -2759,7 +2762,7 @@ nav.navbar-default {
     text-transform: uppercase; }
     nav.navbar-default ul.navbar-right.navbar-nav li a {
       color: #999999; }
-      nav.navbar-default ul.navbar-right.navbar-nav li a#login, nav.navbar-default ul.navbar-right.navbar-nav li a#sign-up {
+      nav.navbar-default ul.navbar-right.navbar-nav li a#login, nav.navbar-default ul.navbar-right.navbar-nav li a#register {
         margin-top: 13px; }
 
 .fade {
@@ -2772,7 +2775,10 @@ nav.navbar-default {
 
 .modal-content {
   background-color: #222222;
+  font-family: "Century Gothic", sans-serif;
   opacity: 0.95; }
+  .modal-content a:hover {
+    color: #4f93ce !important; }
   .modal-content .modal-header {
     border-bottom: none; }
     .modal-content .modal-header button.close {
@@ -2784,7 +2790,13 @@ nav.navbar-default {
       .modal-content .modal-header button.close:hover, .modal-content .modal-header button.close:focus {
         color: white; }
     .modal-content .modal-header h2 {
-      font-weight: normal; }
+      font-size: 24px;
+      font-weight: normal;
+      letter-spacing: 1px; }
+    .modal-content .modal-header.email-registration {
+      padding-bottom: 10px; }
+    .modal-content .modal-header.register, .modal-content .modal-header#login {
+      padding-bottom: 0; }
   .modal-content .modal-body {
     text-align: center; }
     .modal-content .modal-body h3 {
@@ -2801,31 +2813,73 @@ nav.navbar-default {
           background-color: #55ACEE;
           border-radius: 3px;
           padding: 3px; }
+    .modal-content .modal-body.email-registration {
+      padding-top: 0; }
+      .modal-content .modal-body.email-registration label.birth-date, .modal-content .modal-body.email-registration label.gender, .modal-content .modal-body.email-registration #checkbox-agree {
+        margin-top: 20px; }
+      .modal-content .modal-body.email-registration label {
+        margin-top: 15px;
+        margin-bottom: 2px; }
+        .modal-content .modal-body.email-registration label:not(.birth-date, .gender) {
+          display: block; }
+        .modal-content .modal-body.email-registration label.email {
+          margin-top: 10px; }
+      .modal-content .modal-body.email-registration #checkbox-agree {
+        font-size: 14px; }
+        .modal-content .modal-body.email-registration #checkbox-agree input {
+          font-weight: 300;
+          margin-top: 4px;
+          width: 12px; }
+      .modal-content .modal-body.email-registration input {
+        width: 90%; }
+        .modal-content .modal-body.email-registration input.checkbox {
+          display: inline-block; }
+      .modal-content .modal-body.email-registration .password-req {
+        color: orange;
+        font-size: 12px;
+        margin-bottom: 2px; }
+      .modal-content .modal-body.email-registration #captcha img {
+        margin-top: 25px;
+        height: 50px;
+        width: 210px; }
+      .modal-content .modal-body.email-registration #captcha label {
+        margin-top: 10px; }
     .modal-content .modal-body#username-and-password {
       padding-top: 0; }
       .modal-content .modal-body#username-and-password input {
-        font-size: 16px;
         height: 35px;
         width: 90%; }
         .modal-content .modal-body#username-and-password input:first-child {
           margin-bottom: 15px; }
   .modal-content .modal-footer {
     border-top: none; }
+    .modal-content .modal-footer.register, .modal-content .modal-footer#email-registration {
+      padding-top: 0;
+      padding-bottom: 20px; }
+    .modal-content .modal-footer.register {
+      text-align: center; }
+    .modal-content .modal-footer#email-registration input {
+      width: 90%; }
     .modal-content .modal-footer a {
       float: left;
       font-size: 16px;
       margin-top: 5px;
       margin-left: 15px; }
-      .modal-content .modal-footer a:hover {
-        color: #4f93ce !important; }
-    .modal-content .modal-footer input {
+    .modal-content .modal-footer button, .modal-content .modal-footer input {
       background-color: #666666;
       border: none;
-      font-size: 16px;
-      margin-right: 15px;
-      padding: 6px 12px; }
-      .modal-content .modal-footer input:hover {
+      padding-top: 6px;
+      padding-bottom: 6px; }
+      .modal-content .modal-footer button:hover, .modal-content .modal-footer input:hover {
         background-color: gray; }
+    .modal-content .modal-footer button {
+      font-size: 16px;
+      padding-right: 15px;
+      padding-left: 15px; }
+    .modal-content .modal-footer input {
+      margin-right: 15px;
+      padding-right: 12px;
+      padding-left: 12px; }
 
 .space-above-footer {
   height: 109px; }
@@ -2905,37 +2959,3 @@ footer {
     float: right;
     height: auto;
     width: 100px; }
-
-@media only screen and (max-width: 1676px) {
-  nav.navbar-default ul.navbar-right.navbar-nav li:last-child a {
-    color: #b3b3b3; } }
-@media only screen and (max-width: 1318px) {
-  nav.navbar-default ul.navbar-right.navbar-nav li:last-child a {
-    color: #cccccc; }
-  nav.navbar-default ul.navbar-right.navbar-nav li:first-child a {
-    color: #b3b3b3; } }
-@media only screen and (max-width: 1199px) {
-  nav.navbar-default {
-    background: -webkit-radial-gradient(70%, circle, black, transparent 90%);
-    background: -moz-radial-gradient(70%, circle, black, transparent 90%);
-    background: -o-radial-gradient(70%, circle, black, transparent 90%);
-    background: radial-gradient(circle at 70%, black, transparent 90%); }
-    nav.navbar-default .navbar-header {
-      width: 100%; } }
-@media only screen and (max-width: 991px) {
-  nav.navbar {
-    height: 90px; }
-  nav.navbar-default {
-    background: -webkit-radial-gradient(75%, circle, black, transparent 90%);
-    background: -moz-radial-gradient(75%, circle, black, transparent 90%);
-    background: -o-radial-gradient(75%, circle, black, transparent 90%);
-    background: radial-gradient(circle at 75%, black, transparent 90%); }
-    nav.navbar-default .navbar-header a.navbar-brand {
-      margin-top: 25px; }
-    nav.navbar-default .navbar-header img#musiclaps-logo {
-      margin-left: 0;
-      height: 40px;
-      width: auto; }
-    nav.navbar-default .navbar-header img#sword-slash, nav.navbar-default .navbar-header img#uzumasa-limelight-logo {
-      height: 80px;
-      width: auto; } }

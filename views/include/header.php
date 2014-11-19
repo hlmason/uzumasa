@@ -53,20 +53,27 @@
 			
 			<ul class="nav navbar-nav navbar-right" id="logged-out">
 				<li><a class="loginJS" id="login">Log In</a></li>
-				<li><a class="signUp" id="sign-up">Sign Up</a></li>
+				<li><a class="registerJS" id="register">Register</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	<!-- "Log In" modal -->
+	<!-- "Register" modal -->
+	<?php
+		include(ROOT_PATH . 'views/include/modals/register.php');
+	?>
+	<!-- End of "Register" modal -->
+
+
+	<!-- "Email Registration" modal -->
+	<?php
+		include(ROOT_PATH . 'views/include/modals/email-registration.php');
+	?>
+	<!-- End of "Email Registration" modal -->
+
+
+	<!-- "Log in" modal -->
 	<?php
 		include(ROOT_PATH . 'views/include/modals/login.php');
 	?>
-	<!-- End of login modal -->
-
-
-	<!-- "Sign Up" modal -->
-	<?php
-		include(ROOT_PATH . 'views/include/modals/signup.php');
-	?>
-	<!-- End of register modal -->
+	<!-- End of "Log in" modal -->
