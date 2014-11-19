@@ -32,9 +32,9 @@
 	nav {
 		&.navbar-default {
 			background: -webkit-radial-gradient(70%, circle, black, transparent 90%);
-			background: -moz-radial-gradient(70%, circle, black, transparent 90%);
-			background: -o-radial-gradient(70%, circle, black, transparent 90%);
-			background: radial-gradient(circle at 70%, black, transparent 90%);
+			background:    -moz-radial-gradient(70%, circle, black, transparent 90%);
+			background:      -o-radial-gradient(70%, circle, black, transparent 90%);
+			background:       radial-gradient(circle at 70%, black, transparent 90%);
 			.navbar-header {
 				width: 100%;
 			}
@@ -50,9 +50,9 @@
 		}
 		&.navbar-default {
 			background: -webkit-radial-gradient(75%, circle, black, transparent 90%);
-			background: -moz-radial-gradient(75%, circle, black, transparent 90%);
-			background: -o-radial-gradient(75%, circle, black, transparent 90%);
-			background: radial-gradient(circle at 75%, black, transparent 90%);
+			background:    -moz-radial-gradient(75%, circle, black, transparent 90%);
+			background:      -o-radial-gradient(75%, circle, black, transparent 90%);
+			background:       radial-gradient(circle at 75%, black, transparent 90%);
 			.navbar-header {
 				a.navbar-brand {
 					margin-top: 25px;
