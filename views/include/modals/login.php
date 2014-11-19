@@ -2,12 +2,12 @@
 	<div class="modal-dialog modal-sm">
 		<div class="modal-content">
 
-			<div class="modal-header" id="login-header">
+			<div class="modal-header" id="login">
 				<button type="button" class="close" data-dismiss="modal">
 					<span aria-hidden="true">&times;</span>
 					<span class="sr-only">Close</span>
 				</button>
-				<h2 class="modal-title login-modal-heading" id="loginLabel">Log in</h2>
+				<h2 class="modal-title" id="loginLabel">Log in</h2>
 			</div>
 
 			<?php
@@ -15,12 +15,12 @@
 			?>
 
 			<form action="#" method="post">
-				<div class="modal-body" id="login-modal-body">
-					<input type="text" name="userid" placeholder="Username">
-					<input type="password" name="password" placeholder="Password">
-					<div class="error-message">	
+				<div class="modal-body" id="username-and-password">
+					<input type="text" name="userid" placeholder=" Username">
+					<input type="password" name="password" placeholder=" Password">
+<!-- 					<div class="error-message">
 						<?= (! empty($_SESSION['login_error']) ? $_SESSION['login_error'] : '' ) ?>
-					</div>
+					</div> -->
 				</div>
 				<div class="modal-footer">
 					<a>Forgot Password</a>

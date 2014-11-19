@@ -42,8 +42,8 @@ nav {
 			letter-spacing: 0.5px;
 			text-transform: uppercase;
 			&.navbar-nav li a { // This level of specificity is necessary
-				color: #999;
-				&#login, &#sign-up {
+				color: $font-color--medium-light-gray;
+				&#login, &#register {
 					margin-top: 13px;
 				}
 			}

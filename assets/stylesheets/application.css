@@ -2702,13 +2702,21 @@ img {
   max-width: 100%;
   height: auto; }
 
+ul {
+  padding-left: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
 a:hover {
   color: white !important;
   cursor: pointer; }
 
 h1, h3, h4 {
-  font-weight: 300;
   letter-spacing: 0.5px; }
+
+h1, h3, h4, label {
+  font-weight: 300; }
 
 h1, h3 {
   font-family: "Century Gothic", sans-serif; }
@@ -2716,13 +2724,16 @@ h1, h3 {
 h4, footer {
   font-family: sans-serif; }
 
+label, input {
+  font-size: 16px; }
+
 nav.navbar {
   height: 109px; }
 nav.navbar-default {
-  background: -webkit-radial-gradient(60%, circle, black, transparent 90%);
-  background: -moz-radial-gradient(60%, circle, black, transparent 90%);
-  background: -o-radial-gradient(60%, circle, black, transparent 90%);
-  background: radial-gradient(circle at 60%, black, transparent 90%);
+  background: -webkit-radial-gradient(60%, circle, black 30%, transparent 90%);
+  background: -moz-radial-gradient(60%, circle, black 30%, transparent 90%);
+  background: -o-radial-gradient(60%, circle, black 30%, transparent 90%);
+  background: radial-gradient(circle at 60%, black 30%, transparent 90%);
   border: none;
   margin-bottom: 0; }
   nav.navbar-default .navbar-header {
@@ -2750,9 +2761,125 @@ nav.navbar-default {
     letter-spacing: 0.5px;
     text-transform: uppercase; }
     nav.navbar-default ul.navbar-right.navbar-nav li a {
-      color: #999; }
-      nav.navbar-default ul.navbar-right.navbar-nav li a#login, nav.navbar-default ul.navbar-right.navbar-nav li a#sign-up {
+      color: #999999; }
+      nav.navbar-default ul.navbar-right.navbar-nav li a#login, nav.navbar-default ul.navbar-right.navbar-nav li a#register {
         margin-top: 13px; }
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0s linear;
+  -moz-transition: opacity 0s linear;
+  -ms-transition: opacity 0s linear;
+  -o-transition: opacity 0s linear;
+  transition: opacity 0s linear; }
+
+.modal-content {
+  background-color: #222222;
+  font-family: "Century Gothic", sans-serif;
+  opacity: 0.95; }
+  .modal-content a:hover {
+    color: #4f93ce !important; }
+  .modal-content .modal-header {
+    border-bottom: none; }
+    .modal-content .modal-header button.close {
+      background-color: #222222;
+      border: none;
+      color: #888888;
+      float: right;
+      font-size: 21px; }
+      .modal-content .modal-header button.close:hover, .modal-content .modal-header button.close:focus {
+        color: white; }
+    .modal-content .modal-header h2 {
+      font-size: 24px;
+      font-weight: normal;
+      letter-spacing: 1px; }
+    .modal-content .modal-header.email-registration {
+      padding-bottom: 10px; }
+    .modal-content .modal-header.register, .modal-content .modal-header#login {
+      padding-bottom: 0; }
+  .modal-content .modal-body {
+    text-align: center; }
+    .modal-content .modal-body h3 {
+      color: #999999;
+      margin-top: 0; }
+    .modal-content .modal-body li {
+      display: inline-block; }
+      .modal-content .modal-body li img {
+        height: 35px;
+        width: 35px; }
+        .modal-content .modal-body li img:not(.facebook-icon) {
+          margin-left: 10px; }
+        .modal-content .modal-body li img.twitter-icon {
+          background-color: #55ACEE;
+          border-radius: 3px;
+          padding: 3px; }
+    .modal-content .modal-body.email-registration {
+      padding-top: 0; }
+      .modal-content .modal-body.email-registration label.birth-date, .modal-content .modal-body.email-registration label.gender, .modal-content .modal-body.email-registration #checkbox-agree {
+        margin-top: 20px; }
+      .modal-content .modal-body.email-registration label {
+        margin-top: 15px;
+        margin-bottom: 2px; }
+        .modal-content .modal-body.email-registration label:not(.birth-date, .gender) {
+          display: block; }
+        .modal-content .modal-body.email-registration label.email {
+          margin-top: 10px; }
+      .modal-content .modal-body.email-registration #checkbox-agree {
+        font-size: 14px; }
+        .modal-content .modal-body.email-registration #checkbox-agree input {
+          font-weight: 300;
+          margin-top: 4px;
+          width: 12px; }
+      .modal-content .modal-body.email-registration input {
+        width: 90%; }
+        .modal-content .modal-body.email-registration input.checkbox {
+          display: inline-block; }
+      .modal-content .modal-body.email-registration .password-req {
+        color: orange;
+        font-size: 12px;
+        margin-bottom: 2px; }
+      .modal-content .modal-body.email-registration #captcha img {
+        margin-top: 25px;
+        height: 50px;
+        width: 210px; }
+      .modal-content .modal-body.email-registration #captcha label {
+        margin-top: 10px; }
+    .modal-content .modal-body#username-and-password {
+      padding-top: 0; }
+      .modal-content .modal-body#username-and-password input {
+        height: 35px;
+        width: 90%; }
+        .modal-content .modal-body#username-and-password input:first-child {
+          margin-bottom: 15px; }
+  .modal-content .modal-footer {
+    border-top: none; }
+    .modal-content .modal-footer.register, .modal-content .modal-footer#email-registration {
+      padding-top: 0;
+      padding-bottom: 20px; }
+    .modal-content .modal-footer.register {
+      text-align: center; }
+    .modal-content .modal-footer#email-registration input {
+      width: 90%; }
+    .modal-content .modal-footer a {
+      float: left;
+      font-size: 16px;
+      margin-top: 5px;
+      margin-left: 15px; }
+    .modal-content .modal-footer button, .modal-content .modal-footer input {
+      background-color: #666666;
+      border: none;
+      padding-top: 6px;
+      padding-bottom: 6px; }
+      .modal-content .modal-footer button:hover, .modal-content .modal-footer input:hover {
+        background-color: gray; }
+    .modal-content .modal-footer button {
+      font-size: 16px;
+      padding-right: 15px;
+      padding-left: 15px; }
+    .modal-content .modal-footer input {
+      margin-right: 15px;
+      padding-right: 12px;
+      padding-left: 12px; }
 
 .space-above-footer {
   height: 109px; }
@@ -2809,7 +2936,7 @@ footer {
     color: #b3b3b3;
     margin-top: 2px; }
 #landing-page #ranking-container h1#ranking {
-  background-color: #222;
+  background-color: #222222;
   margin-bottom: 0;
   margin-left: -15px;
   margin-right: -15px;
@@ -2818,13 +2945,11 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px; }
   #landing-page #ranking-container .user-stats:nth-child(even) {
-    background-color: #111; }
+    background-color: #111111; }
   #landing-page #ranking-container .user-stats:nth-child(odd) {
-    background-color: #222; }
+    background-color: #222222; }
   #landing-page #ranking-container .user-stats h3 {
     margin-top: 0; }
-    #landing-page #ranking-container .user-stats h3:nth-child(2) {
-      font-weight: 300; }
     #landing-page #ranking-container .user-stats h3 span {
       color: #888888;
       display: block;

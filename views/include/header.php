@@ -40,33 +40,40 @@
 					</form>
 					
 					<a href="https://www.musiclaps.com/" target="blank">
-						<img id="musiclaps-logo" src="<?php echo BASE_URL; ?>assets/images/musiclaps-logo.png" alt="Musiclaps logo">
+						<img id="musiclaps-logo" src="<?php echo BASE_URL; ?>assets/images/header/musiclaps-logo.png" alt="Musiclaps logo">
 					</a>
 					
-					<img id="sword-slash" src="<?php echo BASE_URL; ?>assets/images/sword-slash.png" alt="sword slash">
+					<img id="sword-slash" src="<?php echo BASE_URL; ?>assets/images/header/sword-slash.png" alt="sword slash">
 					
 					<a href="http://www.uzumasalimelight.com/" target="blank">
-						<img id="uzumasa-limelight-logo" src="<?php echo BASE_URL; ?>assets/images/uzumasa-limelight-logo.png" alt="Uzumasa Limelight logo">
+						<img id="uzumasa-limelight-logo" src="<?php echo BASE_URL; ?>assets/images/header/uzumasa-limelight-logo.png" alt="Uzumasa Limelight logo">
 					</a>
 				</a>
 			</div>
 			
 			<ul class="nav navbar-nav navbar-right" id="logged-out">
 				<li><a class="loginJS" id="login">Log In</a></li>
-				<li><a class="signUp" id="sign-up">Sign Up</a></li>
+				<li><a class="registerJS" id="register">Register</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	<!-- "Log In" modal -->
+	<!-- "Register" modal -->
+	<?php
+		include(ROOT_PATH . 'views/include/modals/register.php');
+	?>
+	<!-- End of "Register" modal -->
+
+
+	<!-- "Email Registration" modal -->
+	<?php
+		include(ROOT_PATH . 'views/include/modals/email-registration.php');
+	?>
+	<!-- End of "Email Registration" modal -->
+
+
+	<!-- "Log in" modal -->
 	<?php
 		include(ROOT_PATH . 'views/include/modals/login.php');
 	?>
-	<!-- End of login modal -->
-
-
-	<!-- "Sign Up" modal -->
-	<?php
-		include(ROOT_PATH . 'views/include/modals/signup.php');
-	?>
-	<!-- End of register modal -->
+	<!-- End of "Log in" modal -->

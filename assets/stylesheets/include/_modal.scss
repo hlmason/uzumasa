@@ -1,0 +1,156 @@
+.fade {
+	opacity: 0; // Makes modal fade non-transparent
+	-webkit-transition: opacity 0s linear; // Speeds up modal display
+	   -moz-transition: opacity 0s linear; // Speeds up modal display
+	    -ms-transition: opacity 0s linear; // Speeds up modal display
+	     -o-transition: opacity 0s linear; // Speeds up modal display
+	        transition: opacity 0s linear; // Speeds up modal display
+}
+
+.modal-content {
+	background-color: $font-color--dark-gray;
+	font-family: $font-family--primary;
+	opacity: 0.95;
+	a:hover {
+		color: lighten(#337AB7, 10%) !important;
+	}
+	.modal-header {
+		border-bottom: none;
+		button.close {
+			background-color: $font-color--dark-gray;
+			border: none;
+			color: $font-color--medium-gray;
+			float: right;
+			font-size: 21px;
+			&:hover, &:focus {
+				color: white;	
+			}
+		}
+		h2 {
+			font-size: 24px;
+			font-weight: normal;
+			letter-spacing: 1px;
+		}
+		&.email-registration {
+			padding-bottom: 10px;
+		}
+		&.register, &#login {
+			padding-bottom: 0;
+		}
+	}
+	.modal-body {
+		text-align: center;
+		h3 { // "Login using"
+			color: $font-color--medium-light-gray;
+			margin-top: 0;
+		}
+		li {
+			display: inline-block;
+			img {
+				height: 35px;
+				width: 35px;
+				&:not(.facebook-icon) {
+					margin-left: 10px;
+				}
+				&.twitter-icon { // When using the bird with other logos and graphic elements, maintain a safety space that equals 200% the size of the square around the bird.
+					background-color: #55ACEE;
+					border-radius: 3px;
+					padding: 3px;
+				}
+			}
+		}
+		&.email-registration {
+			padding-top: 0;
+			label.birth-date, label.gender, #checkbox-agree {
+				margin-top: 20px;
+			}
+			label {
+				margin-top: 15px;
+				margin-bottom: 2px;
+				&:not(.birth-date, .gender) {
+					display: block;
+				}
+				&.email {
+					margin-top: 10px;
+				}
+			}
+			#checkbox-agree {
+				font-size: 14px;
+				input {
+					font-weight: 300;
+					margin-top: 4px; // Keeps text at the same height as checkbox
+					width: 12px; // Keeps text inline with checkbox
+				}
+			}
+			input {
+				width: 90%;
+				&.checkbox {
+					display: inline-block;
+				}
+			}
+			.password-req {
+				color: orange;
+				font-size: 12px;
+				margin-bottom: 2px;
+			}
+			#captcha {
+				img {
+					margin-top: 25px;
+					height: 50px;
+					width: 210px;					
+				}
+				label {
+					margin-top: 10px;
+				}
+			}
+		}
+		&#username-and-password {
+			padding-top: 0;
+			input { // "Username" and "Password"
+				height: 35px;
+				width: 90%;
+				&:first-child { // "Username" only
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+	.modal-footer {
+		border-top: none;
+		&.register, &#email-registration {
+			padding-top: 0;
+			padding-bottom: 20px;
+		}
+		&.register {
+			text-align: center;
+		}
+		&#email-registration input {
+			width: 90%;
+		}
+		a { // "Forgot Password"
+			float: left;
+			font-size: 16px;
+			margin-top: 5px;
+			margin-left: 15px;
+		}
+		button, input {
+			background-color: $font-color--medium-dark-gray;
+			border: none;
+			padding-top: 6px;
+			padding-bottom: 6px;
+			&:hover {
+				background-color: lighten($font-color--medium-dark-gray, 10%);
+			}
+		}
+		button {
+			font-size: 16px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		input { // "Log in"
+			margin-right: 15px;
+			padding-right: 12px;
+			padding-left: 12px;
+		}
+	}
+}

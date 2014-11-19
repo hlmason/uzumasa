@@ -53,7 +53,7 @@
 					<div class="row user-stats">
 						<h3 class="col-xs-1">#1</h3><!-- Hard-coded placeholder -->
 						<h3 class="col-xs-6">username<!-- Hard-coded placeholder -->
-							<span>12,345,678 views</span><!-- Hard-coded placeholder -->
+							<span>12,345,678 claps</span><!-- Hard-coded placeholder -->
 						</h3>
 						<img class="col-xs-5" src="<?php echo BASE_URL; ?>assets/images/avatar.jpg" alt="avatar">
 					</div>
@@ -61,7 +61,7 @@
 					<div class="row user-stats">
 						<h3 class="col-xs-1">#2</h3><!-- Hard-coded placeholder -->
 						<h3 class="col-xs-6">username<!-- Hard-coded placeholder -->
-							<span>1,234,567 views</span><!-- Hard-coded placeholder -->
+							<span>1,234,567 claps</span><!-- Hard-coded placeholder -->
 						</h3>
 						<img class="col-xs-5" src="<?php echo BASE_URL; ?>assets/images/avatar.jpg" alt="avatar">
 					</div>
@@ -69,7 +69,7 @@
 					<div class="row user-stats">
 						<h3 class="col-xs-1">#3</h3><!-- Hard-coded placeholder -->
 						<h3 class="col-xs-6">username<!-- Hard-coded placeholder -->
-							<span>123,456 views</span><!-- Hard-coded placeholder -->
+							<span>123,456 claps</span><!-- Hard-coded placeholder -->
 						</h3>
 						<img class="col-xs-5" src="<?php echo BASE_URL; ?>assets/images/avatar.jpg" alt="avatar">
 					</div>
@@ -77,7 +77,7 @@
 					<div class="row user-stats">
 						<h3 class="col-xs-1">#4</h3><!-- Hard-coded placeholder -->
 						<h3 class="col-xs-6">username<!-- Hard-coded placeholder -->
-							<span>12,345 views</span><!-- Hard-coded placeholder -->
+							<span>12,345 claps</span><!-- Hard-coded placeholder -->
 						</h3>
 						<img class="col-xs-5" src="<?php echo BASE_URL; ?>assets/images/avatar.jpg" alt="avatar">
 					</div>
@@ -85,7 +85,7 @@
 					<div class="row user-stats">
 						<h3 class="col-xs-1">#5</h3><!-- Hard-coded placeholder -->
 						<h3 class="col-xs-6">username<!-- Hard-coded placeholder -->
-							<span>1,234 views</span><!-- Hard-coded placeholder -->
+							<span>1,234 claps</span><!-- Hard-coded placeholder -->
 						</h3>
 						<img class="col-xs-5" src="<?php echo BASE_URL; ?>assets/images/avatar.jpg" alt="avatar">
 					</div>
@@ -93,7 +93,7 @@
 					<div class="row user-stats">
 						<h3 class="col-xs-1">#6</h3><!-- Hard-coded placeholder -->
 						<h3 class="col-xs-6">username<!-- Hard-coded placeholder -->
-							<span>123 views</span><!-- Hard-coded placeholder -->
+							<span>123 claps</span><!-- Hard-coded placeholder -->
 						</h3>
 						<img class="col-xs-5" src="<?php echo BASE_URL; ?>assets/images/avatar.jpg" alt="avatar">
 					</div>

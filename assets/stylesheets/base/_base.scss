@@ -20,16 +20,16 @@ img {
 	height: auto;
 }
 
-// ul {
-// 	padding-left: 0;
-// 	li { 
-// 		list-style-type: none;
-// 	}
-// }
+ul {
+	padding-left: 0;
+	// li { 
+	// 	list-style-type: none;
+	// }
+}
 
-// a:hover, a:focus {
-// 	text-decoration: none;
-// }
+a:hover, a:focus {
+	text-decoration: none;
+}
 
 a:hover {
 	color: white !important;
@@ -37,8 +37,11 @@ a:hover {
 }
 
 h1, h3, h4 {
-	font-weight: 300;
 	letter-spacing: 0.5px;
+}
+
+h1, h3, h4, label {
+	font-weight: 300;
 }
 
 h1, h3 {
@@ -47,4 +50,8 @@ h1, h3 {
 
 h4, footer {
 	font-family: $font-family--secondary;
+}
+
+label, input {
+	font-size: 16px;
 }
