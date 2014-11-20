@@ -1,7 +1,7 @@
 					<div>
-						<label class="birth-date" for="birth_date_registration">Birth Date</label>
+						<label class="birth-date">Birth Date</label>
 
-						<select id="birth_date_registration" name="birthday">
+						<select>
 							<option value=""></option>
 							<option value="jan">Jan</option>
 							<option value="feb">Feb</option>

@@ -2833,11 +2833,11 @@ nav.navbar-default {
         color: orange;
         font-size: 12px;
         margin-bottom: 2px; }
-      .modal-content .modal-body.email-registration #captcha img {
+      .modal-content .modal-body.email-registration .captcha img {
         margin-top: 25px;
         height: 50px;
         width: 210px; }
-      .modal-content .modal-body.email-registration #captcha label {
+      .modal-content .modal-body.email-registration .captcha label {
         margin-top: 10px; }
     .modal-content .modal-body#username-and-password {
       padding-top: 0; }
