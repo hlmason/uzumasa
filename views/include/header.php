@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Showdown Unleased">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Musiclaps Presents: <?php echo $page_title; ?></title>
 <!-- 	<link rel="icon" href="<?php echo BASE_URL; ?>favicon.ico">
 	<link rel="apple-touch-icon-precomposed" sizes="228x228" href="<?php echo BASE_URL; ?>favicon-228.png">
 	<link rel="apple-touch-icon-precomposed" sizes="195x195" href="<?php echo BASE_URL; ?>favicon-195.png">
@@ -18,17 +19,10 @@
     <link rel="apple-touch-icon-precomposed" sizes="48x48" href="<?php echo BASE_URL; ?>favicon-48.png"> -->
 	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/stylesheets/application.css">
-	<title>Musiclaps | <?php echo $page_title; ?></title>
-	<!-- [if lt IE 9]> -->
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <!-- [endif] -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="<?php echo BASE_URL; ?>assets/javascripts/customized.bootstrap.min.js"></script>
-	<script src="<?php echo BASE_URL; ?>assets/javascripts/modal.js"></script>
 </head>
 <body>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<a class="navbar-brand">

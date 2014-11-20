@@ -2691,12 +2691,7 @@ html, body {
 
 body {
   background-color: black;
-  background-image: url("../../assets/images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  height: 100%;
-  width: 100%; }
+  color: white; }
 
 img {
   max-width: 100%;
@@ -2882,80 +2877,90 @@ nav.navbar-default {
       padding-left: 12px; }
 
 .space-above-footer {
-  height: 109px; }
+  height: 70px; }
 
 footer {
   color: gray;
   font-size: 12px;
+  margin-top: 100px;
   padding-bottom: 30px;
   text-align: center; }
 
-#landing-page img.cherry-blossoms {
+#background-img {
+  background-attachment: fixed;
+  background-image: url("../../assets/images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%; }
+
+.landing-page img.cherry-blossoms {
   position: absolute;
   height: auto;
   width: 400px;
   z-index: 1; }
-  #landing-page img.cherry-blossoms:first-child {
+  .landing-page img.cherry-blossoms:first-child {
     left: 65px;
     top: 178px; }
-  #landing-page img.cherry-blossoms:last-child {
+  .landing-page img.cherry-blossoms:last-child {
     bottom: 100px;
     right: 100px; }
-#landing-page #youtube-player-placeholder, #landing-page #youtube-player-advanced-settings-placeholder {
+.landing-page #youtube-player-placeholder, .landing-page #youtube-player-advanced-settings-placeholder {
   margin-right: auto;
   margin-left: auto;
   width: 700px; }
-#landing-page #youtube-player-placeholder {
+.landing-page #youtube-player-placeholder {
   background-color: #444;
   height: 405px;
   margin-top: 209px;
   opacity: 0.85; }
-#landing-page #youtube-player-advanced-settings-placeholder {
+.landing-page #youtube-player-advanced-settings-placeholder {
   border-right: 1px dashed #444;
   border-bottom: 1px dashed #444;
   border-left: 1px dashed #444;
   height: 200px; }
-#landing-page h1 {
-  margin-top: 210px; }
-#landing-page h1:not(#ranking) {
+.landing-page h1 {
+  margin-top: 260px; }
+.landing-page h1:not(#ranking) {
   margin-left: 15px; }
-#landing-page .second-video-row {
+.landing-page .second-video-row {
   margin-top: -409px; }
-#landing-page .third-video-row {
+.landing-page .third-video-row {
   margin-top: -145px; }
-#landing-page .video-thumbnail-placeholder {
+.landing-page .video-thumbnail-placeholder {
   background-color: #444;
   height: 144px;
   width: 245px; }
-#landing-page h4 {
+.landing-page h4 {
   margin-bottom: 0;
   margin-left: 2px; }
-  #landing-page h4.video-title {
+  .landing-page h4.video-title {
     margin-top: 15px; }
-  #landing-page h4:last-child {
+  .landing-page h4:last-child {
     color: #b3b3b3;
     margin-top: 2px; }
-#landing-page #ranking-container h1#ranking {
+.landing-page #ranking-container h1#ranking {
   background-color: #222222;
   margin-bottom: 0;
   margin-left: -15px;
   margin-right: -15px;
   padding: 15px; }
-#landing-page #ranking-container .user-stats {
+.landing-page #ranking-container .user-stats {
   padding-top: 15px;
   padding-bottom: 15px; }
-  #landing-page #ranking-container .user-stats:nth-child(even) {
+  .landing-page #ranking-container .user-stats:nth-child(even) {
     background-color: #111111; }
-  #landing-page #ranking-container .user-stats:nth-child(odd) {
+  .landing-page #ranking-container .user-stats:nth-child(odd) {
     background-color: #222222; }
-  #landing-page #ranking-container .user-stats h3 {
+  .landing-page #ranking-container .user-stats h3 {
     margin-top: 0; }
-    #landing-page #ranking-container .user-stats h3 span {
+    .landing-page #ranking-container .user-stats h3 span {
       color: #888888;
       display: block;
       font-family: sans-serif;
       font-size: 14px; }
-  #landing-page #ranking-container .user-stats img {
+  .landing-page #ranking-container .user-stats img {
     float: right;
     height: auto;
     width: 100px; }
