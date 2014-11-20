@@ -25,7 +25,7 @@
 		border-bottom: 1px dashed #444;
 		border-left: 1px dashed #444;
 		height: 200px;
-		margin-top: -115px;
+		margin-top: -115px; // Factors in height of "#slide-down-button" (55px)
 	}
 	img {
 		&.cherry-blossoms {
@@ -49,8 +49,10 @@
 		&#slide-down-button {
 			@include rotate(90deg);
 			cursor: pointer;
+			display: block;
 			margin-top: 60px;
-			margin-left: 47.5%;
+			margin-right: auto;
+			margin-left: auto;
 		}
 		&#slide-up-button {
 			@include rotate(-90deg);
@@ -73,14 +75,22 @@
 		background-color: #444;
 		height: 144px;
 		width: 245px;
+		img { // Play button
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			padding-top: 44.5px; // (144px (height of YouTube player) / 2) - (55px (height of play button) / 2)
+			height: auto; // Not sure why 55px doesn't work here
+			width: 55px;
+		}
 	}
-	h4 { // video title and description
+	h4 { // Video title and description
 		margin-bottom: 0;
 		margin-left: 2px;
 		&.video-title { // No idea why "&.first-child" doesn't work but "&:last-child" works
 			margin-top: 15px;
 		}
-		&:last-child { // video description
+		&:last-child { // Video description
 			color: darken($font-color--body, 30%);
 			margin-top: 2px;
 		}

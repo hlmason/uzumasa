@@ -2929,8 +2929,10 @@ footer {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
   cursor: pointer;
+  display: block;
   margin-top: 60px;
-  margin-left: 47.5%; }
+  margin-right: auto;
+  margin-left: auto; }
 .landing-page img#slide-up-button {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -2950,6 +2952,13 @@ footer {
   background-color: #444;
   height: 144px;
   width: 245px; }
+  .landing-page .video-thumbnail-placeholder img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 44.5px;
+    height: auto;
+    width: 55px; }
 .landing-page h4 {
   margin-bottom: 0;
   margin-left: 2px; }
