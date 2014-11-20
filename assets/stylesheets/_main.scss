@@ -40,11 +40,11 @@
 		border-left: 1px dashed #444;
 		height: 200px;
 	}
-	h1 { // "Most Viewed" and "Ranking"
-		margin-top: 260px; // Leaves space below navbar
-	}
-	h1:not(#ranking) {
-		margin-left: 15px;
+	h1 {
+		margin-top: 40px;
+		&:not(#ranking) {
+			margin-left: 15px;
+		}
 	}
 	.second-video-row {
 		margin-top: -409px;

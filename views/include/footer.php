@@ -1,4 +1,3 @@
-	<div class="space-above-footer"></div>
 
 	<footer>
 		<?php
