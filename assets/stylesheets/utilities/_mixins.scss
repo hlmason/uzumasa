@@ -1,0 +1,16 @@
+@mixin rotate($degrees) {
+	-webkit-transform: rotate($degrees);
+       -moz-transform: rotate($degrees);
+	    -ms-transform: rotate($degrees);
+	     -o-transform: rotate($degrees);
+		    transform: rotate($degrees);
+	// filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); // IE6/7
+	// ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; // IE8
+}
+
+// @mixin radial-gradient($position-left, $shape, $background-color, $percentage) {
+// 	background: -webkit-radial-gradient($position-left, $shape, $background-color, transparent $percentage);
+// 	background: -moz-radial-gradient($position-left, $shape, $background-color, transparent $percentage);
+// 	background: -o-radial-gradient($position-left, $shape, $background-color, transparent $percentage);
+// 	background: radial-gradient($shape at $position-left, black, transparent $percentage);
+// }

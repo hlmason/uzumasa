@@ -15,6 +15,7 @@
 					<img class="cherry-blossoms" src="<?php echo BASE_URL; ?>assets/images/cherry-blossoms-top-left.png" alt="cherry blossoms">
 					
 					<div id="youtube-player-placeholder"></div><!-- Placeholder -->
+					<img id="slide-down-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="slide down button">
 					<div id="youtube-player-advanced-settings-placeholder"></div><!-- Placeholder -->
 					
 					<img class="cherry-blossoms" src="<?php echo BASE_URL; ?>assets/images/cherry-blossoms-bottom-right.png" alt="cherry blossoms">
@@ -161,6 +162,10 @@
 					<h4>Video description...</h4><!-- Hard-coded placeholder -->
 				</div>
 			</div>
+		</div>
+
+		<div class="row col-xs-12">
+			<a href="#slide-1"><img id="slide-up-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="slide up button"></a>
 		</div>
 
 	</div>
