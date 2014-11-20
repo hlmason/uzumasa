@@ -12,9 +12,9 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/javascripts/customized.bootstrap.min.js"></script>
 	<script src="<?php echo BASE_URL; ?>assets/javascripts/modal.js"></script>
-	<script src="<?php echo BASE_URL; ?>assets/javascripts/imagesloaded.js"></script><!-- Preloads background image and resizes each 'slide' to be 100% of the browser viewport (for parallax) -->
-    <script src="<?php echo BASE_URL; ?>assets/javascripts/skrollr.js"></script><!-- For parallax -->
-    <script src="<?php echo BASE_URL; ?>assets/javascripts/_main.js"></script><!-- Preloads background image and resizes each 'slide' to be 100% of the browser viewport (for parallax) -->
+	<script src="<?php echo BASE_URL; ?>assets/javascripts/imagesloaded.js"></script><!-- Preloads background image and resizes each 'slide' to be 100% of the browser viewport (for parallax scrolling) -->
+    <script src="<?php echo BASE_URL; ?>assets/javascripts/skrollr.js"></script><!-- Stand-alone parallax scrolling (vanilla JS) library for desktop and mobile -->
+    <script src="<?php echo BASE_URL; ?>assets/javascripts/_main.js"></script><!-- Preloads background image and resizes each 'slide' to be 100% of the browser viewport (for parallax scrolling) -->
     <script src="<?php echo BASE_URL; ?>assets/javascripts/index.js"></script>
 
     </body>
