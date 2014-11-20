@@ -2940,10 +2940,10 @@ footer {
   margin-left: 40%; }
 .landing-page h1 {
   margin-top: 40px; }
-  .landing-page h1:not(#ranking) {
+  .landing-page h1:not(:last-child) {
     margin-left: 15px; }
 .landing-page .second-video-row {
-  margin-top: -409px; }
+  margin-top: -384px; }
 .landing-page .third-video-row {
   margin-top: -145px; }
 .landing-page .video-thumbnail-placeholder {
@@ -2958,7 +2958,7 @@ footer {
   .landing-page h4:last-child {
     color: #b3b3b3;
     margin-top: 2px; }
-.landing-page #ranking-container h1#ranking {
+.landing-page #ranking-container h1 {
   background-color: #222222;
   margin-bottom: 0;
   margin-left: -15px;
