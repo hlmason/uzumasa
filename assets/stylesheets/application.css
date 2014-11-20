@@ -2893,17 +2893,6 @@ footer {
   height: 100%;
   width: 100%; }
 
-.landing-page img.cherry-blossoms {
-  position: absolute;
-  height: auto;
-  width: 400px;
-  z-index: 1; }
-  .landing-page img.cherry-blossoms:first-child {
-    left: 65px;
-    top: 178px; }
-  .landing-page img.cherry-blossoms:last-child {
-    bottom: 100px;
-    right: 100px; }
 .landing-page #youtube-player-placeholder, .landing-page #youtube-player-advanced-settings-placeholder {
   margin-right: auto;
   margin-left: auto;
@@ -2919,6 +2908,17 @@ footer {
   border-left: 1px dashed #444;
   height: 200px;
   margin-top: -115px; }
+.landing-page img.cherry-blossoms {
+  position: absolute;
+  height: auto;
+  width: 400px;
+  z-index: 1; }
+  .landing-page img.cherry-blossoms:first-child {
+    left: 65px;
+    top: 178px; }
+  .landing-page img.cherry-blossoms:last-child {
+    bottom: 100px;
+    right: 100px; }
 .landing-page img#slide-down-button, .landing-page img#slide-up-button {
   margin-left: 47.5%;
   height: 55px;
