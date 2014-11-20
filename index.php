@@ -28,7 +28,11 @@
 	<div class="container landing-page">
 		<div class="row">
 			<div class="col-xs-12 col-sm-9">
-				<h1>Most Viewed</h1>
+				<h1>Most Viewed
+					<a href="#slide-1"><!-- This link is necessary here because the jQuery code does not account for the event where user SCROLLS DOWN and then CLICKS on slide up button -->
+						<img id="slide-up-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="slide up button">
+					</a>
+				</h1>
 				
 				<div class="col-xs-12 col-xs-4">
 					<div>
@@ -165,7 +169,7 @@
 		</div>
 
 		<div class="row col-xs-12">
-			<a href="#slide-1"><img id="slide-up-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="slide up button"></a>
+
 		</div>
 
 	</div>

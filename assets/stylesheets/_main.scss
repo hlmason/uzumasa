@@ -43,7 +43,6 @@
 			}
 		}
 		&#slide-down-button, &#slide-up-button {
-			margin-left: 47.5%;
 			height: 55px;
 			width: 55px;
 		}
@@ -51,10 +50,11 @@
 			@include rotate(90deg);
 			cursor: pointer;
 			margin-top: 60px;
+			margin-left: 47.5%;
 		}
 		&#slide-up-button {
 			@include rotate(-90deg);
-			margin-top: 60px;
+			margin-left: 40%;
 		}
 	}
 	h1 {
