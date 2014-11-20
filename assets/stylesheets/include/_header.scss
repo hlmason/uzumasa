@@ -3,10 +3,10 @@ nav {
 		height: 109px;
 	}
 	&.navbar-default {
-		background: -webkit-radial-gradient(60%, circle, black, transparent 90%);
-		background:    -moz-radial-gradient(60%, circle, black, transparent 90%);
-		background:      -o-radial-gradient(60%, circle, black, transparent 90%);
-		background:       radial-gradient(circle at 60%, black, transparent 90%);
+		background: -webkit-radial-gradient(60%, circle, black 30%, transparent 90%);
+		background:    -moz-radial-gradient(60%, circle, black 30%, transparent 90%);
+		background:      -o-radial-gradient(60%, circle, black 30%, transparent 90%);
+		background:       radial-gradient(circle at 60%, black 30%, transparent 90%);
 		border: none;
 		margin-bottom: 0;
 		.navbar-header {
