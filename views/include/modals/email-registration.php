@@ -10,9 +10,8 @@
 				<h2 class="modal-title" id="emailRegistrationLabel">Email Registration</h2>
 			</div>
 			
-			<form class="registrationForm" id="resetForm" action="#" method="post">
+			<form action="#" method="post">
 				<div class="modal-body email-registration">
-					<div id="validationErrorMessages"></div>
 					<img src="<?php echo BASE_URL; ?>assets/images/modal/dots.png" alt="four dots">
 					<div>
 						<label class="email" for="email">Email Address</label>
@@ -20,8 +19,8 @@
 					</div>
 					
 					<div>
-						<label for="userid">Username</label>
-						<input id="userid" type="text" name="userid">
+						<label for="username">Username</label>
+						<input id="username" type="text" name="username">
 					</div>
 					
 					<div>
@@ -47,8 +46,8 @@
 
 
 					<div>
-						<label class="gender" for="gender">Gender</label>
-						<select id="gender" name="gender">
+						<label class="gender">Gender</label>
+						<select name="gender">
 							<option value=""></option>
 							<option value="male">Male</option>
 							<option value="female">Female</option>
@@ -58,13 +57,13 @@
 					
 					<div>
 						<label for="zip_or_postal_code">Zip/Postal Code</label>
-						<input id="zip_or_postal_code" type="text" name="zipcode">
+						<input id="zip_or_postal_code" type="text" name="zip_or_postal_code">
 					</div>
 					
-					<div id="captcha">
+					<div class="captcha">
 						<img src="<?php echo BASE_URL; ?>assets/images/modal/captcha.png" alt="captcha"><!-- Hard-coded placeholder -->
-						<label class="captcha" for="captcha">Please type in the above text</label>
-						<input type="text" name="captcha">
+						<label for="captcha">Please type in the above text</label>
+						<input id="captcha" type="text" name="captcha">
 					</div>
 					
 					<div id="checkbox-agree">
