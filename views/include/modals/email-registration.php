@@ -10,7 +10,7 @@
 				<h2 class="modal-title" id="emailRegistrationLabel">Email Registration</h2>
 			</div>
 			
-			<form action="#" method="post">
+			<form action="<?php echo BASE_URL; ?>controllers/registration-controller.php" method="post">
 				<div class="modal-body email-registration">
 					<img src="<?php echo BASE_URL; ?>assets/images/modals/dots.png" alt="four dots">
 

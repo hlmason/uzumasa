@@ -2704,7 +2704,6 @@ a:hover, a:focus {
   text-decoration: none; }
 
 a:hover {
-  color: white !important;
   cursor: pointer; }
 
 h1, h3, h4 {
@@ -2751,14 +2750,29 @@ nav.navbar-default {
       height: 100px;
       width: auto; }
   nav.navbar-default ul.navbar-right {
-    font-family: "Century Gothic", sans-serif;
-    font-size: 20px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase; }
-    nav.navbar-default ul.navbar-right.navbar-nav li a {
-      color: #999999; }
-      nav.navbar-default ul.navbar-right.navbar-nav li a#login, nav.navbar-default ul.navbar-right.navbar-nav li a#register {
-        margin-top: 13px; }
+    font-family: "Century Gothic", sans-serif; }
+    nav.navbar-default ul.navbar-right:not(#logged-in) {
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase; }
+      nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a {
+        color: #999999; }
+        nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a#login, nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a#register {
+          margin-top: 13px; }
+          nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a#login:hover, nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a#register:hover {
+            color: white; }
+    nav.navbar-default ul.navbar-right#logged-in li#welcome-username {
+      color: #999999;
+      font-size: 18px;
+      margin-top: 34px;
+      margin-right: 30px; }
+    nav.navbar-default ul.navbar-right#logged-in li input {
+      background-color: black;
+      border: 1px solid white;
+      margin-top: 28px;
+      padding: 6px 12px; }
+      nav.navbar-default ul.navbar-right#logged-in li input:hover, nav.navbar-default ul.navbar-right#logged-in li input:focus {
+        color: #e6e6e6; }
 
 .fade {
   opacity: 0;
@@ -2773,7 +2787,7 @@ nav.navbar-default {
   font-family: "Century Gothic", sans-serif;
   opacity: 0.95; }
   .modal-content a:hover {
-    color: #4f93ce !important; }
+    color: #4f93ce; }
   .modal-content .modal-header {
     border-bottom: none; }
     .modal-content .modal-header button.close {
@@ -2865,7 +2879,7 @@ nav.navbar-default {
       border: none;
       padding-top: 6px;
       padding-bottom: 6px; }
-      .modal-content .modal-footer button:hover, .modal-content .modal-footer input:hover {
+      .modal-content .modal-footer button:hover, .modal-content .modal-footer button:focus, .modal-content .modal-footer input:hover, .modal-content .modal-footer input:focus {
         background-color: gray; }
     .modal-content .modal-footer button {
       font-size: 16px;

@@ -1,7 +1,7 @@
 <?php
 	require_once('controllers/require/config.php');
 
-	$page_title = 'Showdown Unleased';
+	$page_title = 'Musiclaps Presents';
 	
 	include(ROOT_PATH . 'views/include/header.php');
 ?>
@@ -188,6 +188,6 @@
 
 	</div>
 
-	<?php
-		include(ROOT_PATH . 'views/include/footer.php');
-	?>
+<?php
+	include(ROOT_PATH . 'views/include/footer.php');
+?>

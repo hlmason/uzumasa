@@ -11,8 +11,8 @@
 	background-color: $font-color--dark-gray;
 	font-family: $font-family--primary;
 	opacity: 0.95;
-	a:hover {
-		color: lighten(#337AB7, 10%) !important;
+	a:hover { // "Forgot Password", "Terms of Service", and "Privacy Policy"
+		color: lighten(#337AB7, 10%);
 	}
 	.modal-header {
 		border-bottom: none;
@@ -138,11 +138,11 @@
 			border: none;
 			padding-top: 6px;
 			padding-bottom: 6px;
-			&:hover {
+			&:hover, &:focus {
 				background-color: lighten($font-color--medium-dark-gray, 10%);
 			}
 		}
-		button {
+		button { // "Register with Email"
 			font-size: 16px;
 			padding-right: 15px;
 			padding-left: 15px;

@@ -45,29 +45,13 @@
 				</a>
 			</div>
 			
-			<ul class="nav navbar-nav navbar-right">
-				<li><a class="loginJS" id="login">Log In</a></li>
-				<li><a class="registerJS" id="register">Register</a></li>
+			<ul class="nav navbar-nav navbar-right" id="logged-in">
+				<li id="welcome-username">Welcome, username</li>
+				<li>
+					<form action="<?php echo BASE_URL; ?>controllers/logout-controller.php" method="post">
+						<input type="submit" value="Log out">
+					</form>
+				</li>
 			</ul>
 		</div>
 	</nav>
-
-	<!-- "Register" modal -->
-	<?php
-		include(ROOT_PATH . 'views/include/modals/register.php');
-	?>
-	<!-- End of "Register" modal -->
-
-
-	<!-- "Email Registration" modal -->
-	<?php
-		include(ROOT_PATH . 'views/include/modals/email-registration.php');
-	?>
-	<!-- End of "Email Registration" modal -->
-
-
-	<!-- "Log in" modal -->
-	<?php
-		include(ROOT_PATH . 'views/include/modals/login.php');
-	?>
-	<!-- End of "Log in" modal -->
