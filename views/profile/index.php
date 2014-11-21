@@ -56,12 +56,51 @@
 
 			<div class="col-xs-12 col-sm-7">
 				<ul class="nav nav-tabs">
-				<li><a>My Profile</a></li>
-				<li><a>My Events</a></li>
-				<li><a>Messages</a></li>
-				<li><a>Groups</a></li>
-				<li><a>Favorites</a></li>
+					<li>
+						<a class="my-profile-link 
+							<?php 
+								if ($page_title == "My Profile") { 
+									echo "active-nav-tab"; 
+								} 
+							?>" href="<?php echo BASE_URL; ?>views/profile/">My Profile
+						</a>
+					</li>
+					<li>
+						<a class="
+							<?php 
+								if ($page_title == "My Events") { 
+									echo "active-nav-tab"; 
+								} 
+							?>" href="#">My Events
+						</a></li>
+					<li>
+						<a class="							
+							<?php 
+								if ($page_title == "Messages") { 
+									echo "active-nav-tab"; 
+								} 
+							?>" href="#">Messages
+						</a></li>
+					<li>
+						<a class="							
+							<?php 
+								if ($page_title == "Groups") { 
+									echo "active-nav-tab"; 
+								} 
+							?>" href="#">Groups
+						</a></li>
+					<li>
+						<a class="							
+							<?php 
+								if ($page_title == "Favorites") { 
+									echo "active-nav-tab"; 
+								} 
+							?>" href="#">Favorites
+						</a>
+					</li>
 				</ul>
+				<div id="edit-profile-container">
+				</div>
 			</div>
 
 			<div class="col-xs-12 col-sm-2 ranking-container">

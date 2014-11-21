@@ -17,7 +17,7 @@
 							<option value="dec">Dec</option>
 						</select> /
 						
-						<select>
+						<select><!-- There must be a better way to do all this but I don't know it! -->
 							<option value=""></option>
 							<option value="1">1</option>
 							<option value="2">2</option>
@@ -52,8 +52,8 @@
 							<option value="31">31</option>
 						</select> /
 						
-						<select>
-							<option value=""></option><!-- There must be a better way to do this but I don't know it! -->
+						<select><!-- There must be a better way to do all this but I don't know it! -->
+							<option value=""></option>
 							<option value="2009">2009</option>
 							<option value="2008">2008</option>
 							<option value="2007">2007</option>

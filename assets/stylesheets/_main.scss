@@ -94,7 +94,7 @@
 		}
 	}
 	h1 {
-		&:not(.ranking) { // Not "Ranking"
+		&:not(.h1-ranking) { // Not "Ranking"
 			margin-left: 15px;
 			margin-top: 40px;
 		}
@@ -153,8 +153,10 @@
 	#events-container, .ranking-container {
 		height: 600px;
 	}
-	#events-container {
+	#events-container, #edit-profile-container {
 		background-color: $font-color--dark-medium-gray;
+	}
+	#events-container {
 		overflow-y: scroll;
 		.event-placeholder { // Placeholder
 			background-color: $font-color--medium-light-gray;
@@ -173,6 +175,28 @@
 			}
 		}
 	}
+	#edit-profile-container {
+		height: 200px;
+		width: 100%;
+	}
+	ul.nav-tabs { // "Profile", "My Events", "Messages", "Groups", "Favorites"
+		border-bottom: 1px solid black;
+		margin-top: 0;
+		li a {
+			background-color: $font-color--darkest-gray;
+			border-right: 1px solid black;
+			border-bottom: 3px solid black;
+			border-radius: 0;
+			font-family: $font-family--primary;
+			font-size: 1.5em;
+			&.my-profile-link:hover { // "My Profile"
+				border-left: 1px solid $font-color--dark-medium-gray;
+			}
+			&:not(.my-profile-link) { // Not "My Profile"
+				border-left: 1px solid black;
+			}
+		}
+	}
 	.ranking-container {
 		overflow-y: scroll;
 		h2 {
@@ -184,4 +208,10 @@
 			width: 60px;
 		}
 	}
+}
+
+.active-nav-tab, ul.nav-tabs li a:hover, ul.nav-tabs li a:focus {
+	background-color: $font-color--dark-medium-gray !important;
+	border-top: 1px solid $font-color--dark-medium-gray !important;
+	color: white;
 }
