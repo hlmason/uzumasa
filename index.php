@@ -61,8 +61,8 @@
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-sm-3" id="ranking-container">
-				<h1>Ranking</h1>
+			<div class="col-xs-12 col-sm-3 ranking-container">
+				<h1 class="ranking">Ranking</h1>
 				
 				<div class="row user-stats">
 					<h3 class="col-xs-1">#1</h3><!-- Hard-coded placeholder -->

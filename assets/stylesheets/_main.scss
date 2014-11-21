@@ -8,6 +8,40 @@
 	width: 100%;
 }
 
+.landing-page, #my-profile-page {
+	.ranking-container {
+		h1, h2 {
+			background-color: $font-color--dark-gray;
+			margin-bottom: 0;
+			margin-left: -15px; // Aligns "Ranking" container with user stats container
+			padding: 15px;
+		}
+		.user-stats {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			&:nth-child(even) {
+				background-color: $font-color--darkest-gray;
+			}
+			&:nth-child(odd) {
+				background-color: $font-color--dark-gray;
+			}
+			h3, h4 { // Rank number and username
+				margin-top: 0;
+				margin-bottom: 0;
+				span {
+					color: $font-color--medium-gray;
+					display: block;
+					font-family: $font-family--secondary;
+					font-size: 14px;
+				}
+			}
+			img {
+				float: right;
+			}
+		}
+	}
+}
+
 .landing-page {
 	#youtube-player-placeholder, #youtube-player-advanced-settings-placeholder { // Placeholder
 		margin-right: auto;
@@ -60,9 +94,9 @@
 		}
 	}
 	h1 {
-		margin-top: 40px;
-		&:not(:last-child) { // Not "Ranking"
+		&:not(.ranking) { // Not "Ranking"
 			margin-left: 15px;
+			margin-top: 40px;
 		}
 	}
 	.second-video-row {
@@ -95,37 +129,59 @@
 			margin-top: 2px;
 		}
 	}
-	#ranking-container {
+	.ranking-container {
+		margin-top: 40px;
 		h1 {
-			background-color: $font-color--dark-gray;
-			margin-bottom: 0;
-			margin-left: -15px; // Aligns "Ranking" container with user stats container
+			margin-top: 0;
 			margin-right: -15px; // Aligns "Ranking" container with user stats container
-			padding: 15px;
 		}
-		.user-stats {
-			padding-top: 15px;
-			padding-bottom: 15px;
-			&:nth-child(even) {
-				background-color: $font-color--darkest-gray;
+		img {
+			height: auto;
+			width: 100px;
+		}
+	}
+}
+
+#my-profile-page {
+	padding-top: 25px;
+	h2 {
+		display: inline-block;
+		font-family: $font-family--primary;
+		font-weight: 300;
+		letter-spacing: 0.5px;
+	}
+	#events-container, .ranking-container {
+		height: 600px;
+	}
+	#events-container {
+		background-color: $font-color--dark-medium-gray;
+		overflow-y: scroll;
+		.event-placeholder { // Placeholder
+			background-color: $font-color--medium-light-gray;
+			height: 110px;
+			width: 188px;
+		}
+		h5 {
+			margin-bottom: 0;
+			&.event-name {
+				margin-top: 7.5px;
 			}
-			&:nth-child(odd) {
-				background-color: $font-color--dark-gray;
+			&.event-description {
+				color: darken($font-color--body, 25%);
+				margin-top: 1px;
+				padding-bottom: 20px;
 			}
-			h3 { // Rank number and username
-				margin-top: 0;
-				span {
-					color: $font-color--medium-gray;
-					display: block;
-					font-family: $font-family--secondary;
-					font-size: 14px;
-				}
-			}
-			img {
-				float: right;
-				height: auto;
-				width: 100px;
-			}
+		}
+	}
+	.ranking-container {
+		overflow-y: scroll;
+		h2 {
+			margin-top: 0;
+			width: 119%;
+		}
+		img {
+			height: auto;
+			width: 60px;
 		}
 	}
 }

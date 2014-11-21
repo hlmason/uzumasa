@@ -34,7 +34,7 @@ h1, h3, h4 {
 	letter-spacing: 0.5px;
 }
 
-h1, h3, h4, label {
+h1, h3, h4, h5, label {
 	font-weight: 300;
 }
 
@@ -42,7 +42,7 @@ h1, h3 {
 	font-family: $font-family--primary;
 }
 
-h4, footer {
+h4, h5, footer {
 	font-family: $font-family--secondary;
 }
 
