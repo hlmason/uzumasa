@@ -1,3 +1,13 @@
+@mixin register-and-log-in-out-buttons {
+	background-color: $font-color--medium-dark-gray;
+	border: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	&:hover, &:focus {
+		background-color: lighten($font-color--medium-dark-gray, 10%);
+	}
+}
+
 // @mixin radial-gradient($position-left, $shape, $background-color, $percentage) {
 // 	background: -webkit-radial-gradient($position-left, $shape, $background-color, transparent $percentage);
 // 	background: -moz-radial-gradient($position-left, $shape, $background-color, transparent $percentage);

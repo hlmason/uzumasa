@@ -134,20 +134,14 @@
 			margin-left: 15px;
 		}
 		button, input {
-			background-color: $font-color--medium-dark-gray;
-			border: none;
-			padding-top: 6px;
-			padding-bottom: 6px;
-			&:hover, &:focus {
-				background-color: lighten($font-color--medium-dark-gray, 10%);
-			}
+			@include register-and-log-in-out-buttons;
 		}
 		button { // "Register with Email"
 			font-size: 16px;
 			padding-right: 15px;
 			padding-left: 15px;
 		}
-		input { // "Log in"
+		input { // "Register" and "Log in"
 			margin-right: 15px;
 			padding-right: 12px;
 			padding-left: 12px;
