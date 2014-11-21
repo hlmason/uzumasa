@@ -2956,26 +2956,17 @@ footer {
   .landing-page img.cherry-blossoms:last-child {
     bottom: 100px;
     right: 100px; }
-.landing-page img#slide-down-button, .landing-page img#slide-up-button {
-  height: 55px;
-  width: 55px; }
-.landing-page img#slide-down-button {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+.landing-page .glyphicon-chevron-down, .landing-page .glyphicon-chevron-up {
+  color: #999999;
+  font-size: 55px; }
+  .landing-page .glyphicon-chevron-down:hover, .landing-page .glyphicon-chevron-down:focus, .landing-page .glyphicon-chevron-up:hover, .landing-page .glyphicon-chevron-up:focus {
+    color: white; }
+.landing-page .glyphicon-chevron-down {
   cursor: pointer;
   display: block;
   margin-top: 60px;
-  margin-right: auto;
-  margin-left: auto; }
-.landing-page img#slide-up-button {
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+  text-align: center; }
+.landing-page .glyphicon-chevron-up {
   margin-left: 40%; }
 .landing-page h1:not(.h1-ranking) {
   margin-left: 15px;

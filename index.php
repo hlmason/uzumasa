@@ -15,7 +15,7 @@
 					<img class="cherry-blossoms" src="<?php echo BASE_URL; ?>assets/images/cherry-blossoms-top-left.png" alt="cherry blossoms">
 					
 					<div id="youtube-player-placeholder"></div><!-- Placeholder -->
-					<img id="slide-down-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="slide down button">
+					<span class="glyphicon glyphicon-chevron-down"></span>
 					<div id="youtube-player-advanced-settings-placeholder"></div><!-- Placeholder -->
 					
 					<img class="cherry-blossoms" src="<?php echo BASE_URL; ?>assets/images/cherry-blossoms-bottom-right.png" alt="cherry blossoms">
@@ -30,7 +30,7 @@
 			<div class="col-xs-12 col-sm-9">
 				<h1>Most Viewed
 					<a href="#slide-1"><!-- This link is necessary here because the jQuery code does not account for the event where user SCROLLS DOWN and then CLICKS on slide up button -->
-						<img id="slide-up-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="slide up button">
+						<span class="glyphicon glyphicon-chevron-up"></span>
 					</a>
 				</h1>
 				

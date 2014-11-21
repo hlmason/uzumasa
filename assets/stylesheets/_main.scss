@@ -76,22 +76,22 @@
 				right: 100px;
 			}
 		}
-		&#slide-down-button, &#slide-up-button {
-			height: 55px;
-			width: 55px;
+	}
+	.glyphicon-chevron-down, .glyphicon-chevron-up {
+		color: $font-color--medium-light-gray;
+		font-size: 55px;
+		&:hover, &:focus {
+			color: white;
 		}
-		&#slide-down-button {
-			@include rotate(90deg);
-			cursor: pointer;
-			display: block;
-			margin-top: 60px;
-			margin-right: auto;
-			margin-left: auto;
-		}
-		&#slide-up-button {
-			@include rotate(-90deg);
-			margin-left: 40%;
-		}
+	}
+	.glyphicon-chevron-down {
+		cursor: pointer;
+		display: block;
+		margin-top: 60px;
+		text-align: center;
+	}
+	.glyphicon-chevron-up {
+		margin-left: 40%;
 	}
 	h1 {
 		&:not(.h1-ranking) { // Not "Ranking"
