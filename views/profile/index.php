@@ -13,43 +13,43 @@
 				<h2>Events</h2>
 
 				<div class="row col-xs-12">
-					<div class="event-placeholder"></div>
+					<div class="event-placeholder"></div><!-- Placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-name">Event Name</h5>
+					<h5 class="event-name">Event Name</h5><!-- Hard-coded placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-description">Event Description...</h5>
-				</div>
-
-				<div class="row col-xs-12">
-					<div class="event-placeholder"></div>
-				</div>
-				<div class="row col-xs-12">
-					<h5 class="event-name">Event Name</h5>
-				</div>
-				<div class="row col-xs-12">
-					<h5 class="event-description">Event Description...</h5>
+					<h5 class="event-description">Event Description...</h5><!-- Hard-coded placeholder -->
 				</div>
 
 				<div class="row col-xs-12">
-					<div class="event-placeholder"></div>
+					<div class="event-placeholder"></div><!-- Placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-name">Event Name</h5>
+					<h5 class="event-name">Event Name</h5><!-- Hard-coded placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-description">Event Description...</h5>
+					<h5 class="event-description">Event Description...</h5><!-- Hard-coded placeholder -->
 				</div>
 
 				<div class="row col-xs-12">
-					<div class="event-placeholder"></div>
+					<div class="event-placeholder"></div><!-- Placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-name">Event Name</h5>
+					<h5 class="event-name">Event Name</h5><!-- Hard-coded placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-description">Event Description...</h5>
+					<h5 class="event-description">Event Description...</h5><!-- Hard-coded placeholder -->
+				</div>
+
+				<div class="row col-xs-12">
+					<div class="event-placeholder"></div><!-- Placeholder -->
+				</div>
+				<div class="row col-xs-12">
+					<h5 class="event-name">Event Name</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="row col-xs-12">
+					<h5 class="event-description">Event Description...</h5><!-- Hard-coded placeholder -->
 				</div>
 
 			</div>
@@ -100,6 +100,42 @@
 					</li>
 				</ul>
 				<div id="edit-profile-container">
+					<div class="row">
+						<div class="col-xs-1"></div> 
+
+						<div class="col-xs-3">
+							<img class="avatar" src="<?php echo BASE_URL; ?>assets/images/avatar.jpg" alt="avatar">
+						</div>
+
+						<div class="col-xs-7">
+							<div class="row">
+								<div class="col-xs-4">
+									<h2 class="h2-username">username</h2>
+								</div>
+
+								<div class="col-xs-4"></div>
+
+								<div class="col-xs-4" id="edit-profile-link-container">
+									<a>Edit Profile</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-1"></div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-4"></div> 
+
+						<div class="col-xs-7">
+							<div id="profile-details"><!-- Placeholder -->
+								<h5>Profile Details</h5><!-- Placeholder -->
+							</div>
+						</div>
+
+						<div class="col-xs-1"></div>
+
+					</div>
 				</div>
 			</div>
 
