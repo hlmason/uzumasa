@@ -155,11 +155,11 @@
 	#events-container, .ranking-container {
 		height: 600px;
 	}
-	#events-container, #edit-profile-container {
+	#events-container, #profile-container {
 		background-color: $font-color--dark-medium-gray;
 	}
 	#events-container {
-		overflow-y: scroll;
+		overflow-y: auto;
 		.event-placeholder { // Placeholder
 			background-color: $font-color--medium-light-gray;
 			height: 110px;
@@ -177,7 +177,8 @@
 			}
 		}
 	}
-	#edit-profile-container {
+	#profile-container {
+		overflow-x: hidden;
 		height: 546px;
 		width: 100%;
 		img, h2 {
@@ -210,6 +211,24 @@
 				text-align: center;
 			}
 		}
+		#projects-container {
+			h3 {
+				margin-top: 30px;
+			}
+			.project-thumbnail-placeholder { // Placeholder
+				background-color: $font-color--medium-light-gray;
+				margin-bottom: 38px;
+				height: 75px;
+				width: 130px;
+			}
+			h5 {
+				margin-top: 0;
+				margin-bottom: 1px;
+				&:last-child {
+					color: darken($font-color--body, 25%);
+				}
+			}
+		}
 	}
 	ul.nav-tabs { // "Profile", "My Events", "Messages", "Groups", "Favorites"
 		border-bottom: 1px solid black;
@@ -230,8 +249,8 @@
 		}
 	}
 	.ranking-container {
-		overflow-y: scroll;
-		h2 {
+		overflow-y: auto;
+		h2 { // "Ranking"
 			margin-top: 0;
 			width: 119%;
 		}

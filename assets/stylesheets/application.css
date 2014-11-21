@@ -3016,10 +3016,10 @@ footer {
     letter-spacing: 0.5px; }
   #my-profile-page #events-container, #my-profile-page .ranking-container {
     height: 600px; }
-  #my-profile-page #events-container, #my-profile-page #edit-profile-container {
+  #my-profile-page #events-container, #my-profile-page #profile-container {
     background-color: #333333; }
   #my-profile-page #events-container {
-    overflow-y: scroll; }
+    overflow-y: auto; }
     #my-profile-page #events-container .event-placeholder {
       background-color: #999999;
       height: 110px;
@@ -3032,31 +3032,44 @@ footer {
         color: #bfbfbf;
         margin-top: 1px;
         padding-bottom: 20px; }
-  #my-profile-page #edit-profile-container {
+  #my-profile-page #profile-container {
+    overflow-x: hidden;
     height: 546px;
     width: 100%; }
-    #my-profile-page #edit-profile-container img, #my-profile-page #edit-profile-container h2 {
+    #my-profile-page #profile-container img, #my-profile-page #profile-container h2 {
       margin-top: 50px; }
-    #my-profile-page #edit-profile-container img#avatar {
+    #my-profile-page #profile-container img#avatar {
       height: 150px;
       width: 150px; }
-    #my-profile-page #edit-profile-container h2 {
+    #my-profile-page #profile-container h2 {
       font-weight: 600;
       letter-spacing: 1px; }
-    #my-profile-page #edit-profile-container #edit-profile-link-container {
+    #my-profile-page #profile-container #edit-profile-link-container {
       margin-top: 55px; }
-      #my-profile-page #edit-profile-container #edit-profile-link-container a {
+      #my-profile-page #profile-container #edit-profile-link-container a {
         font-size: 16px; }
-        #my-profile-page #edit-profile-container #edit-profile-link-container a:hover {
+        #my-profile-page #profile-container #edit-profile-link-container a:hover {
           color: white; }
-    #my-profile-page #edit-profile-container #profile-details {
+    #my-profile-page #profile-container #profile-details {
       background-color: black;
       height: 100px;
       margin-top: -118px; }
-      #my-profile-page #edit-profile-container #profile-details h5 {
+      #my-profile-page #profile-container #profile-details h5 {
         top: 44px;
         position: relative;
         text-align: center; }
+    #my-profile-page #profile-container #projects-container h3 {
+      margin-top: 30px; }
+    #my-profile-page #profile-container #projects-container .project-thumbnail-placeholder {
+      background-color: #999999;
+      margin-bottom: 38px;
+      height: 75px;
+      width: 130px; }
+    #my-profile-page #profile-container #projects-container h5 {
+      margin-top: 0;
+      margin-bottom: 1px; }
+      #my-profile-page #profile-container #projects-container h5:last-child {
+        color: #bfbfbf; }
   #my-profile-page ul.nav-tabs {
     border-bottom: 1px solid black;
     margin-top: 0; }
@@ -3072,7 +3085,7 @@ footer {
       #my-profile-page ul.nav-tabs li a:not(.my-profile-link) {
         border-left: 1px solid black; }
   #my-profile-page .ranking-container {
-    overflow-y: scroll; }
+    overflow-y: auto; }
     #my-profile-page .ranking-container h2 {
       margin-top: 0;
       width: 119%; }

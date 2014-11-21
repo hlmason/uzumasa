@@ -99,7 +99,8 @@
 						</a>
 					</li>
 				</ul>
-				<div id="edit-profile-container">
+
+				<div id="profile-container">
 					<div class="row">
 						<div class="col-xs-1"></div> 
 
@@ -136,7 +137,100 @@
 						<div class="col-xs-1"></div>
 
 					</div>
+
+					<div id="projects-container">
+						<div class="col-xs-1"></div>
+
+						<h3>My Public Projects</h3>
+
+						<div class="row">
+							<div class="col-xs-1"></div>
+
+							<div class="col-xs-5">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
+									</div>
+									<div class="col-xs-6">
+										<h5>Video Name</h5><!-- Hard-coded placeholder -->
+										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-5">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
+									</div>
+									<div class="col-xs-6">
+										<h5>Video Name</h5><!-- Hard-coded placeholder -->
+										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="row">
+							<div class="col-xs-1"></div>
+
+							<div class="col-xs-5">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
+									</div>
+									<div class="col-xs-6">
+										<h5>Video Name</h5><!-- Hard-coded placeholder -->
+										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-5">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
+									</div>
+									<div class="col-xs-6">
+										<h5>Video Name</h5><!-- Hard-coded placeholder -->
+										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="row">
+							<div class="col-xs-1"></div>
+
+							<div class="col-xs-5">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
+									</div>
+									<div class="col-xs-6">
+										<h5>Video Name</h5><!-- Hard-coded placeholder -->
+										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-5">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
+									</div>
+									<div class="col-xs-6">
+										<h5>Video Name</h5><!-- Hard-coded placeholder -->
+										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="col-xs-1"></div>
+					</div>
 				</div>
+
 			</div>
 
 			<div class="col-xs-12 col-sm-2 ranking-container">
