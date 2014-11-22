@@ -28,42 +28,46 @@
 	<div class="container landing-page">
 		<div class="row">
 			<div class="col-xs-12 col-sm-9">
-				<h1>Most Viewed
+				<h1 class="row col-xs-12">Most Viewed
 					<a href="#slide-1"><!-- This link is necessary here because the jQuery code does not account for the event where user SCROLLS DOWN and then CLICKS on slide up button -->
 						<span class="glyphicon glyphicon-chevron-up"></span>
 					</a>
 				</h1>
 				
-				<div class="col-xs-12 col-xs-4">
-					<div>
+				<div class="row">
+					<div class="col-xs-12 col-xs-4">
+						<div>
+							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							</div>
+						</div>
+						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
+						<h4>Video description...</h4><!-- Hard-coded placeholder -->
+					</div>
+
+					<div class="col-xs-12 col-xs-4">
 						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
 							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 						</div>
+						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
+						<h4>Video description...</h4><!-- Hard-coded placeholder -->
 					</div>
-					<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
-					<h4>Video description...</h4><!-- Hard-coded placeholder -->
-				</div>
 
-				<div class="col-xs-12 col-xs-4">
-					<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-						<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+					<div class="col-xs-12 col-xs-4">
+						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+						</div>
+						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
+						<h4>Video description...</h4><!-- Hard-coded placeholder -->
 					</div>
-					<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
-					<h4>Video description...</h4><!-- Hard-coded placeholder -->
-				</div>
-
-				<div class="col-xs-12 col-xs-4">
-					<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-						<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
-					</div>
-					<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
-					<h4>Video description...</h4><!-- Hard-coded placeholder -->
 				</div>
 			</div>
 
 			<div class="col-xs-12 col-sm-3 ranking-container">
-				<h1 class="h1-ranking">Ranking</h1>
-				
+				<div class="row">
+					<h1 class="col-xs-12">Ranking</h1>
+				</div>
+
 				<div class="row user-stats">
 					<h3 class="col-xs-1">#1</h3><!-- Hard-coded placeholder -->
 					<h3 class="col-xs-6">username<!-- Hard-coded placeholder -->
@@ -116,68 +120,72 @@
 
 		<div class="row">
 			<div class="col-xs-12 col-sm-9">
-				<div class="col-xs-12 col-xs-4">
-					<div class="second-video-row">
-						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+				<div class="row">
+					<div class="col-xs-12 col-xs-4">
+						<div class="second-video-row">
+							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							</div>
 						</div>
+						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
+						<h4>Video description...</h4><!-- Hard-coded placeholder -->
 					</div>
-					<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
-					<h4>Video description...</h4><!-- Hard-coded placeholder -->
-				</div>
 
-				<div class="col-xs-12 col-xs-4">
-					<div class="second-video-row">
-						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+					<div class="col-xs-12 col-xs-4">
+						<div class="second-video-row">
+							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							</div>
 						</div>
+						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
+						<h4>Video description...</h4><!-- Hard-coded placeholder -->
 					</div>
-					<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
-					<h4>Video description...</h4><!-- Hard-coded placeholder -->
-				</div>
 
-				<div class="col-xs-12 col-xs-4">
-					<div class="second-video-row">
-						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+					<div class="col-xs-12 col-xs-4">
+						<div class="second-video-row">
+							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							</div>
 						</div>
+						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
+						<h4>Video description...</h4><!-- Hard-coded placeholder -->
 					</div>
-					<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
-					<h4>Video description...</h4><!-- Hard-coded placeholder -->
 				</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-xs-12 col-sm-9">
-				<div class="col-xs-12 col-xs-4">
-					<div class="third-video-row">
-						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+				<div class="row">
+					<div class="col-xs-12 col-xs-4">
+						<div class="third-video-row">
+							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							</div>
 						</div>
+						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
+						<h4>Video description...</h4><!-- Hard-coded placeholder -->
 					</div>
-					<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
-					<h4>Video description...</h4><!-- Hard-coded placeholder -->
-				</div>
 
-				<div class="col-xs-12 col-xs-4">
-					<div class="third-video-row">
-						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+					<div class="col-xs-12 col-xs-4">
+						<div class="third-video-row">
+							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							</div>
 						</div>
+						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
+						<h4>Video description...</h4><!-- Hard-coded placeholder -->
 					</div>
-					<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
-					<h4>Video description...</h4><!-- Hard-coded placeholder -->
-				</div>
 
-				<div class="col-xs-12 col-xs-4">
-					<div class="third-video-row">
-						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+					<div class="col-xs-12 col-xs-4">
+						<div class="third-video-row">
+							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							</div>
 						</div>
+						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
+						<h4>Video description...</h4><!-- Hard-coded placeholder -->
 					</div>
-					<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
-					<h4>Video description...</h4><!-- Hard-coded placeholder -->
 				</div>
 			</div>
 		</div>

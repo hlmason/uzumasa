@@ -10,7 +10,7 @@
 		<div class="row">
 
 			<div class="col-xs-12 col-sm-3" id="events-container">
-				<h2>Events</h2>
+				<h2 class="row col-xs-12">Events</h2>
 
 				<div class="row col-xs-12">
 					<div class="event-placeholder"></div><!-- Placeholder -->
@@ -234,7 +234,9 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-2 ranking-container">
-				<h2>Ranking</h2>
+				<div class="row">
+					<h2 class="col-xs-12">Ranking</h2>
+				</div>
 				
 				<div class="row user-stats">
 					<h4 class="col-xs-1">#1</h4><!-- Hard-coded placeholder -->

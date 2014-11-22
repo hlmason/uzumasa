@@ -13,7 +13,6 @@
 		h1, h2 {
 			background-color: $font-color--dark-gray;
 			margin-bottom: 0;
-			margin-left: -15px; // Aligns "Ranking" container with user stats container
 			padding: 15px;
 		}
 		.user-stats {
@@ -92,12 +91,7 @@
 	}
 	.glyphicon-chevron-up {
 		margin-left: 40%;
-	}
-	h1 {
-		&:not(.h1-ranking) { // Not "Ranking"
-			margin-left: 15px;
-			margin-top: 40px;
-		}
+		top: 15px;
 	}
 	.second-video-row {
 		margin-top: -384px;
@@ -133,7 +127,6 @@
 		margin-top: 40px;
 		h1 {
 			margin-top: 0;
-			margin-right: -15px; // Aligns "Ranking" container with user stats container
 		}
 		img {
 			height: auto;
@@ -167,6 +160,7 @@
 		}
 		h5 {
 			margin-bottom: 0;
+			margin-left: 2px;
 			&.event-name {
 				margin-top: 7.5px;
 			}
@@ -252,7 +246,6 @@
 		overflow-y: auto;
 		h2 { // "Ranking"
 			margin-top: 0;
-			width: 119%;
 		}
 		img {
 			height: auto;

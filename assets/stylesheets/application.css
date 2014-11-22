@@ -2913,7 +2913,6 @@ footer {
 .landing-page .ranking-container h1, .landing-page .ranking-container h2, #my-profile-page .ranking-container h1, #my-profile-page .ranking-container h2 {
   background-color: #222222;
   margin-bottom: 0;
-  margin-left: -15px;
   padding: 15px; }
 .landing-page .ranking-container .user-stats, #my-profile-page .ranking-container .user-stats {
   padding-top: 15px;
@@ -2970,10 +2969,8 @@ footer {
   margin-top: 60px;
   text-align: center; }
 .landing-page .glyphicon-chevron-up {
-  margin-left: 40%; }
-.landing-page h1:not(.h1-ranking) {
-  margin-left: 15px;
-  margin-top: 40px; }
+  margin-left: 40%;
+  top: 15px; }
 .landing-page .second-video-row {
   margin-top: -384px; }
 .landing-page .third-video-row {
@@ -3000,8 +2997,7 @@ footer {
 .landing-page .ranking-container {
   margin-top: 40px; }
   .landing-page .ranking-container h1 {
-    margin-top: 0;
-    margin-right: -15px; }
+    margin-top: 0; }
   .landing-page .ranking-container img {
     height: auto;
     width: 100px; }
@@ -3025,7 +3021,8 @@ footer {
       height: 110px;
       width: 188px; }
     #my-profile-page #events-container h5 {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-left: 2px; }
       #my-profile-page #events-container h5.event-name {
         margin-top: 7.5px; }
       #my-profile-page #events-container h5.event-description {
@@ -3087,8 +3084,7 @@ footer {
   #my-profile-page .ranking-container {
     overflow-y: auto; }
     #my-profile-page .ranking-container h2 {
-      margin-top: 0;
-      width: 119%; }
+      margin-top: 0; }
     #my-profile-page .ranking-container img {
       height: auto;
       width: 60px; }
