@@ -33,13 +33,13 @@
 						</span>
 					</form>
 					
-					<a href="https://www.musiclaps.com/" target="blank">
+					<a href="https://www.musiclaps.com/" target="_blank">
 						<img id="musiclaps-logo" src="<?php echo BASE_URL; ?>assets/images/header/musiclaps-logo.png" alt="Musiclaps logo">
 					</a>
 					
 					<img id="sword-slash" src="<?php echo BASE_URL; ?>assets/images/header/sword-slash.png" alt="sword slash">
 					
-					<a href="http://www.uzumasalimelight.com/" target="blank">
+					<a href="http://www.uzumasalimelight.com/" target="_blank">
 						<img id="uzumasa-limelight-logo" src="<?php echo BASE_URL; ?>assets/images/header/uzumasa-limelight-logo.png" alt="Uzumasa Limelight logo">
 					</a>
 				</a>
