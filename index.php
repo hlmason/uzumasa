@@ -38,7 +38,7 @@
 					<div class="col-xs-12 col-xs-4">
 						<div>
 							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+								<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 							</div>
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
@@ -47,7 +47,7 @@
 
 					<div class="col-xs-12 col-xs-4">
 						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
 						<h4>Video description...</h4><!-- Hard-coded placeholder -->
@@ -55,7 +55,7 @@
 
 					<div class="col-xs-12 col-xs-4">
 						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
 						<h4>Video description...</h4><!-- Hard-coded placeholder -->
@@ -124,7 +124,7 @@
 					<div class="col-xs-12 col-xs-4">
 						<div class="second-video-row">
 							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+								<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 							</div>
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
@@ -134,7 +134,7 @@
 					<div class="col-xs-12 col-xs-4">
 						<div class="second-video-row">
 							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+								<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 							</div>
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
@@ -144,7 +144,7 @@
 					<div class="col-xs-12 col-xs-4">
 						<div class="second-video-row">
 							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+								<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 							</div>
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
@@ -160,7 +160,7 @@
 					<div class="col-xs-12 col-xs-4">
 						<div class="third-video-row">
 							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+								<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 							</div>
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
@@ -170,7 +170,7 @@
 					<div class="col-xs-12 col-xs-4">
 						<div class="third-video-row">
 							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+								<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 							</div>
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
@@ -180,7 +180,7 @@
 					<div class="col-xs-12 col-xs-4">
 						<div class="third-video-row">
 							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-								<img class="play-button" src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+								<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
 							</div>
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->

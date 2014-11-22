@@ -99,19 +99,6 @@
 	.third-video-row {
 		margin-top: -145px;
 	}
-	.video-thumbnail-placeholder { // Placeholder
-		background-color: #444;
-		height: 144px;
-		width: 245px;
-		img { // Play button
-			display: block;
-			margin-right: auto;
-			margin-left: auto;
-			padding-top: 44.5px; // (144px (height of YouTube player) / 2) - (55px (height of play button) / 2)
-			height: auto; // Not sure why 55px doesn't work here
-			width: 55px;
-		}
-	}
 	h4 { // Video title and description
 		margin-bottom: 0;
 		margin-left: 2px;
@@ -132,6 +119,20 @@
 			height: auto;
 			width: 100px;
 		}
+	}
+}
+
+.video-thumbnail-placeholder { // Placeholder
+	background-color: #444;
+	height: 144px;
+	width: 245px;
+	img { // Play button
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 44.5px; // (144px (height of YouTube player) / 2) - (55px (height of play button) / 2)
+		height: auto; // Not sure why 55px doesn't work here
+		width: 55px;
 	}
 }
 
@@ -258,10 +259,7 @@
 		overflow-y: auto;
 		overflow-x: hidden;
 		.video-thumbnail-placeholder { // Placeholder
-			background-color: $font-color--medium-light-gray;
 			display: inline-block;
-			height: 144px;
-			width: 245px;
 			&:not(:first-child) {
 				margin-left: 30px;
 			}

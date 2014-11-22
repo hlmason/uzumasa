@@ -2975,17 +2975,6 @@ footer {
   margin-top: -384px; }
 .landing-page .third-video-row {
   margin-top: -145px; }
-.landing-page .video-thumbnail-placeholder {
-  background-color: #444;
-  height: 144px;
-  width: 245px; }
-  .landing-page .video-thumbnail-placeholder img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 44.5px;
-    height: auto;
-    width: 55px; }
 .landing-page h4 {
   margin-bottom: 0;
   margin-left: 2px; }
@@ -3001,6 +2990,18 @@ footer {
   .landing-page .ranking-container img {
     height: auto;
     width: 100px; }
+
+.video-thumbnail-placeholder {
+  background-color: #444;
+  height: 144px;
+  width: 245px; }
+  .video-thumbnail-placeholder img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 44.5px;
+    height: auto;
+    width: 55px; }
 
 #my-profile-page {
   padding-top: 25px; }
@@ -3094,10 +3095,7 @@ footer {
     overflow-y: auto;
     overflow-x: hidden; }
     #my-profile-page #most-viewed-container .video-thumbnail-placeholder {
-      background-color: #999999;
-      display: inline-block;
-      height: 144px;
-      width: 245px; }
+      display: inline-block; }
       #my-profile-page #most-viewed-container .video-thumbnail-placeholder:not(:first-child) {
         margin-left: 30px; }
     #my-profile-page #most-viewed-container h5.video-title {
