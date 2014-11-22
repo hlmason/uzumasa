@@ -19,7 +19,7 @@
 					<h5 class="event-name">Event Name</h5><!-- Hard-coded placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-description">Event Description...</h5><!-- Hard-coded placeholder -->
+					<h5 class="event-description">Event description...</h5><!-- Hard-coded placeholder -->
 				</div>
 
 				<div class="row col-xs-12">
@@ -29,7 +29,7 @@
 					<h5 class="event-name">Event Name</h5><!-- Hard-coded placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-description">Event Description...</h5><!-- Hard-coded placeholder -->
+					<h5 class="event-description">Event description...</h5><!-- Hard-coded placeholder -->
 				</div>
 
 				<div class="row col-xs-12">
@@ -39,7 +39,7 @@
 					<h5 class="event-name">Event Name</h5><!-- Hard-coded placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-description">Event Description...</h5><!-- Hard-coded placeholder -->
+					<h5 class="event-description">Event description...</h5><!-- Hard-coded placeholder -->
 				</div>
 
 				<div class="row col-xs-12">
@@ -49,7 +49,7 @@
 					<h5 class="event-name">Event Name</h5><!-- Hard-coded placeholder -->
 				</div>
 				<div class="row col-xs-12">
-					<h5 class="event-description">Event Description...</h5><!-- Hard-coded placeholder -->
+					<h5 class="event-description">Event description...</h5><!-- Hard-coded placeholder -->
 				</div>
 
 			</div>
@@ -152,8 +152,8 @@
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
 									<div class="col-xs-6">
-										<h5>Video Name</h5><!-- Hard-coded placeholder -->
-										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+										<h5>Project Name</h5><!-- Hard-coded placeholder -->
+										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
 								</div>
 							</div>
@@ -164,8 +164,8 @@
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
 									<div class="col-xs-6">
-										<h5>Video Name</h5><!-- Hard-coded placeholder -->
-										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+										<h5>Project Name</h5><!-- Hard-coded placeholder -->
+										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
 								</div>
 							</div>	
@@ -180,8 +180,8 @@
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
 									<div class="col-xs-6">
-										<h5>Video Name</h5><!-- Hard-coded placeholder -->
-										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+										<h5>Project Name</h5><!-- Hard-coded placeholder -->
+										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
 								</div>
 							</div>
@@ -192,8 +192,8 @@
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
 									<div class="col-xs-6">
-										<h5>Video Name</h5><!-- Hard-coded placeholder -->
-										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+										<h5>Project Name</h5><!-- Hard-coded placeholder -->
+										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
 								</div>
 							</div>	
@@ -208,8 +208,8 @@
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
 									<div class="col-xs-6">
-										<h5>Video Name</h5><!-- Hard-coded placeholder -->
-										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+										<h5>Project Name</h5><!-- Hard-coded placeholder -->
+										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
 								</div>
 							</div>
@@ -220,8 +220,8 @@
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
 									<div class="col-xs-6">
-										<h5>Video Name</h5><!-- Hard-coded placeholder -->
-										<h5>Video Description...</h5><!-- Hard-coded placeholder -->
+										<h5>Project Name</h5><!-- Hard-coded placeholder -->
+										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
 								</div>
 							</div>	
@@ -295,6 +295,79 @@
 				</div>
 			</div>
 
+		</div>
+
+		<div class="row" id="most-viewed-container">
+			<h2 class="row col-xs-12">Most Viewed</h2>
+
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+				<div class="col-xs-3">
+					<div class="video-thumbnail-placeholder"></div><!-- Placeholder -->
+					<h5 class="video-title">Video Title</h5><!-- Hard-coded placeholder -->
+					<h5>Video description...</h5><!-- Hard-coded placeholder -->
+				</div>
+			</div>
 		</div>
 	</div>
 

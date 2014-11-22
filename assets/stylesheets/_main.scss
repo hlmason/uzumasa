@@ -115,7 +115,7 @@
 	h4 { // Video title and description
 		margin-bottom: 0;
 		margin-left: 2px;
-		&.video-title { // No idea why "&.first-child" doesn't work but "&:last-child" works
+		&.video-title { // No idea why "&:first-child" doesn't work but "&:last-child" works
 			margin-top: 15px;
 		}
 		&:last-child { // Video description
@@ -250,6 +250,32 @@
 		img {
 			height: auto;
 			width: 60px;
+		}
+	}
+	#most-viewed-container {
+		height: 275px;
+		margin-top: 40px;
+		overflow-y: auto;
+		overflow-x: hidden;
+		.video-thumbnail-placeholder { // Placeholder
+			background-color: $font-color--medium-light-gray;
+			display: inline-block;
+			height: 144px;
+			width: 245px;
+			&:not(:first-child) {
+				margin-left: 30px;
+			}
+		}
+		h5 {
+			&.video-title { // No idea why "&:first-child" doesn't work but "&:last-child" works
+				margin-top: 7.5px;
+				margin-bottom: 0;
+			}
+			&:last-child {
+				color: darken($font-color--body, 25%);
+				margin-top: 1px;
+				margin-bottom: 40px;
+			}
 		}
 	}
 }
