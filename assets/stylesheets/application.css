@@ -3115,3 +3115,25 @@ footer {
 
 .active-nav-tab {
   border-bottom: 3px solid #333333 !important; }
+
+/* ===================================
+    Privacy and Terms Pages
+=================================== */
+#privacy-page, #terms-page {
+  padding-top: 100px; }
+  #privacy-page h1, #terms-page h1 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    text-align: center; }
+  #privacy-page h3, #terms-page h3 {
+    margin-bottom: 0; }
+  #privacy-page p, #privacy-page ol, #terms-page p, #terms-page ol {
+    color: #a6a6a6; }
+  #privacy-page p:not(#first-paragraph), #terms-page p:not(#first-paragraph) {
+    margin-top: 0;
+    word-spacing: 1px; }
+  #privacy-page p strong, #terms-page p strong {
+    color: white;
+    font-weight: normal; }
