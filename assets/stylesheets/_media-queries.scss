@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1621px) {
+	
 	nav {
 		&.navbar-default {
 			background: -webkit-radial-gradient(70%, circle, black 30%, transparent 90%);
@@ -7,6 +8,7 @@
 			background:       radial-gradient(circle at 70%, black 30%, transparent 90%);
 		}
 	}
+
 }
 
 @media only screen and (max-width: 1199px) {
@@ -49,6 +51,20 @@
 			}
 		}
 	}
+
+	.landing-page {
+		img {
+			&.cherry-blossoms {
+				&:first-child {
+					left: 0;
+				}
+				&:last-child {
+					right: 35px;
+				}
+			}
+		}
+	}
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -60,6 +76,20 @@
 					&#musiclaps-logo {
 						margin-left: 5px;
 					}
+				}
+			}
+		}
+	}
+
+
+	.landing-page {
+		img {
+			&.cherry-blossoms {
+				&:first-child {
+					left: -125px;
+				}
+				&:last-child {
+					right: -90px;
 				}
 			}
 		}

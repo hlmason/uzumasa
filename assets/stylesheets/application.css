@@ -2955,7 +2955,7 @@ footer {
   position: absolute;
   height: auto;
   width: 400px;
-  z-index: 0.5; }
+  z-index: 1; }
   .landing-page img.cherry-blossoms:first-child {
     left: 65px;
     top: 178px; }
@@ -2965,7 +2965,7 @@ footer {
 .landing-page .glyphicon-chevron-down, .landing-page .glyphicon-chevron-up {
   color: #999999;
   font-size: 55px;
-  z-index: 1; }
+  z-index: 2; }
   .landing-page .glyphicon-chevron-down:hover, .landing-page .glyphicon-chevron-down:focus, .landing-page .glyphicon-chevron-up:hover, .landing-page .glyphicon-chevron-up:focus {
     color: white; }
 .landing-page .glyphicon-chevron-down {
@@ -3172,7 +3172,17 @@ footer {
       margin-top: 12px; }
       nav.navbar-default .navbar-collapse ul.navbar-right:not(#logged-in).navbar-nav li a.login, nav.navbar-default .navbar-collapse ul.navbar-right:not(#logged-in).navbar-nav li a.register {
         margin-top: 5px;
-        text-align: center; } }
+        text-align: center; }
+
+  .landing-page img.cherry-blossoms:first-child {
+    left: 0; }
+  .landing-page img.cherry-blossoms:last-child {
+    right: 35px; } }
 @media only screen and (max-width: 991px) {
   nav.navbar-default .navbar-header img#musiclaps-logo {
-    margin-left: 5px; } }
+    margin-left: 5px; }
+
+  .landing-page img.cherry-blossoms:first-child {
+    left: -125px; }
+  .landing-page img.cherry-blossoms:last-child {
+    right: -90px; } }
