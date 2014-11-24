@@ -1,16 +1,19 @@
 nav {
 	&.navbar {
-		height: 109px;
+		height: 105px;
 	}
 	&.navbar-default {
-		background: -webkit-radial-gradient(60%, circle, black 30%, transparent 90%);
-		background:    -moz-radial-gradient(60%, circle, black 30%, transparent 90%);
-		background:      -o-radial-gradient(60%, circle, black 30%, transparent 90%);
-		background:       radial-gradient(circle at 60%, black 30%, transparent 90%);
+		@include base-radial-gradient;
 		border: none;
 		margin-bottom: 0;
 		.navbar-header {
 			width: 75%;
+			button.navbar-toggle {
+				margin-top: 35px;
+				&:hover, &:focus {
+					background-color: black;
+				}
+			}
 			a.navbar-brand {
 				margin-top: 35px;
 				span#glyphicon-search-container {
@@ -25,12 +28,12 @@ nav {
 			img {
 				&#musiclaps-logo {
 					margin-top: 17px;
-					margin-left: 55px;
+					margin-left: 60px;
 					height: 50px;
 					width: auto;
 				}
 				&#sword-slash, &#uzumasa-limelight-logo {
-					margin-top: 5px;
+					margin-top: 3px;
 					height: 100px;
 					width: auto;
 				}
@@ -44,7 +47,7 @@ nav {
 				text-transform: uppercase;
 				&.navbar-nav li a { // This level of specificity is necessary
 					color: $font-color--medium-light-gray;
-					&#login, &#register {
+					&.register, &.login {
 						margin-top: 13px;
 						&:hover {
 							color: white;

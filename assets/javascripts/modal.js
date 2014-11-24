@@ -8,7 +8,7 @@ $('.glyphiconQuestionSignRegistration').hover(function() {
 
 // Shows "Register", "Email Registration", and "Log In" modals
 
-$('a.registerJS').on('click', function() {
+$('a#registerJS').on('click', function() {
 	$('#registerModal').modal('show');
 });
 
@@ -16,6 +16,6 @@ $('button#registerJS').on('click', function() {
 	$('#emailRegistrationModal').modal('show');
 });
 
-$('a.loginJS').on('click', function() {
+$('a#loginJS').on('click', function() {
 	$('#loginModal').modal('show');
 });

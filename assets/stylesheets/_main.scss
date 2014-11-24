@@ -65,7 +65,7 @@
 			position: absolute;
 			height: auto;
 			width: 400px;
-			z-index: 1;
+			z-index: 0.5;
 			&:first-child {
 				left: 65px;
 				top: 178px;
@@ -79,6 +79,7 @@
 	.glyphicon-chevron-down, .glyphicon-chevron-up {
 		color: $font-color--medium-light-gray;
 		font-size: 55px;
+		z-index: 1;
 		&:hover, &:focus {
 			color: white;
 		}

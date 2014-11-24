@@ -25,6 +25,12 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
+				<button id="navbarToggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+	            </button>
+
 				<a class="navbar-brand">
 					<form action="#" method="get">
 						<input type="text" name="search" placeholder=" Search"><!-- The space before "Search" leaves space between "Search" and the search box -->
@@ -45,10 +51,12 @@
 				</a>
 			</div>
 			
-			<ul class="nav navbar-nav navbar-right">
-				<li><a class="loginJS" id="login">Log In</a></li>
-				<li><a class="registerJS" id="register">Register</a></li>
-			</ul>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="login" id="loginJS">Log In</a></li>
+					<li><a class="register" id="registerJS">Register</a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
