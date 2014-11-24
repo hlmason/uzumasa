@@ -38,6 +38,8 @@
 				background:       radial-gradient(circle at 50%, black, transparent 90%);
 				border-top: none;
 				margin-top: 12px;
+				position: relative;
+				z-index: 1;
 				ul.navbar-right {
 					&:not(#logged-in) {
 						&.navbar-nav li a {
@@ -62,6 +64,9 @@
 					right: 35px;
 				}
 			}
+		}
+		.glyphicon-chevron-up {
+			margin-left: 15%;
 		}
 	}
 
@@ -92,6 +97,9 @@
 					right: -90px;
 				}
 			}
+		}
+		.glyphicon-chevron-up {
+			margin-left: 5%;
 		}
 	}
 }
