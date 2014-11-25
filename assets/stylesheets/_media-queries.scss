@@ -16,8 +16,13 @@
 	nav {
 		&.navbar-default {
 			@include base-radial-gradient;
-			.navbar-header {
-				width: 100%;
+			.navbar-header { // Search bar and logos
+				&:not(.logged-in) {
+					width: 100%;
+				}
+				&.logged-in {
+					float: left;
+				}
 				img {
 					&#musiclaps-logo {
 						margin-top: 25px;
@@ -41,13 +46,21 @@
 				position: relative;
 				z-index: 1;
 				ul.navbar-right {
-					&:not(#logged-in) {
+					&:not(.logged-in) {
 						&.navbar-nav li a {
 							&.login, &.register {
 								margin-top: 5px;
 								text-align: center;
 							}
 						}
+					}
+				}
+			}
+			ul.navbar-right { // "Welcome..." and "Log out"
+				&.logged-in {
+					float: right;
+					li {
+						display: inline-block;
 					}
 				}
 			}
@@ -77,6 +90,10 @@
 		.ranking-container {
 			visibility: hidden;
 		}
+	}
+
+	#events-container {
+		display: none;
 	}
 
 }

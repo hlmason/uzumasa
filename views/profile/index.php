@@ -9,7 +9,7 @@
 	<div class="container" id="my-profile-page">
 		<div class="row">
 
-			<div class="col-xs-12 col-sm-3" id="events-container">
+			<div class="col-xs-12 col-lg-3" id="events-container">
 				<h2 class="row col-xs-12">Events</h2>
 
 				<div class="row col-xs-12">
@@ -54,7 +54,7 @@
 
 			</div>
 
-			<div class="col-xs-12 col-sm-7">
+			<div class="col-xs-12 col-lg-7">
 				<ul class="nav nav-tabs">
 					<li>
 						<a class="my-profile-link 
@@ -233,7 +233,7 @@
 
 			</div>
 
-			<div class="col-xs-12 col-sm-2 ranking-container">
+			<div class="col-xs-12 col-lg-2 ranking-container">
 				<div class="row">
 					<h2 class="col-xs-12">Ranking</h2>
 				</div>

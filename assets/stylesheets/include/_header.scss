@@ -41,7 +41,7 @@ nav {
 		}
 		ul.navbar-right {
 			font-family: $font-family--primary;
-			&:not(#logged-in) {
+			&:not(.logged-in) {
 				font-size: 20px;
 				letter-spacing: 0.5px;
 				text-transform: uppercase;
@@ -55,7 +55,7 @@ nav {
 					}
 				}
 			}
-			&#logged-in {
+			&.logged-in {
 				li {
 					&#welcome-username {
 						color: $font-color--medium-light-gray;

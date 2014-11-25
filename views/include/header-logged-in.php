@@ -24,7 +24,7 @@
 
 	<nav class="navbar navbar-default">
 		<div class="container">
-			<div class="navbar-header">
+			<div class="navbar-header logged-in">
 				<a class="navbar-brand">
 					<form action="#" method="get">
 						<input type="text" name="search" placeholder=" Search"><!-- The space before "Search" leaves space between "Search" and the search box -->
@@ -45,7 +45,7 @@
 				</a>
 			</div>
 			
-			<ul class="nav navbar-nav navbar-right" id="logged-in">
+			<ul class="nav navbar-nav navbar-right logged-in">
 				<li id="welcome-username">Welcome, username</li>
 				<li>
 					<form action="<?php echo BASE_URL; ?>controllers/logout-controller.php" method="post">

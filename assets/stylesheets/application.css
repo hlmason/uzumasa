@@ -2755,22 +2755,22 @@ nav.navbar-default {
       width: auto; }
   nav.navbar-default ul.navbar-right {
     font-family: "Century Gothic", sans-serif; }
-    nav.navbar-default ul.navbar-right:not(#logged-in) {
+    nav.navbar-default ul.navbar-right:not(.logged-in) {
       font-size: 20px;
       letter-spacing: 0.5px;
       text-transform: uppercase; }
-      nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a {
+      nav.navbar-default ul.navbar-right:not(.logged-in).navbar-nav li a {
         color: #999999; }
-        nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a.register, nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a.login {
+        nav.navbar-default ul.navbar-right:not(.logged-in).navbar-nav li a.register, nav.navbar-default ul.navbar-right:not(.logged-in).navbar-nav li a.login {
           margin-top: 13px; }
-          nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a.register:hover, nav.navbar-default ul.navbar-right:not(#logged-in).navbar-nav li a.login:hover {
+          nav.navbar-default ul.navbar-right:not(.logged-in).navbar-nav li a.register:hover, nav.navbar-default ul.navbar-right:not(.logged-in).navbar-nav li a.login:hover {
             color: white; }
-    nav.navbar-default ul.navbar-right#logged-in li#welcome-username {
+    nav.navbar-default ul.navbar-right.logged-in li#welcome-username {
       color: #999999;
       font-size: 16px;
       margin-top: 35px;
       margin-right: 30px; }
-    nav.navbar-default ul.navbar-right#logged-in li input {
+    nav.navbar-default ul.navbar-right.logged-in li input {
       background-color: #666666;
       border: none;
       padding-top: 6px;
@@ -2778,7 +2778,7 @@ nav.navbar-default {
       margin-top: 28px;
       padding-right: 12px;
       padding-left: 12px; }
-      nav.navbar-default ul.navbar-right#logged-in li input:hover, nav.navbar-default ul.navbar-right#logged-in li input:focus {
+      nav.navbar-default ul.navbar-right.logged-in li input:hover, nav.navbar-default ul.navbar-right.logged-in li input:focus {
         background-color: gray; }
 
 .fade {
@@ -2900,7 +2900,7 @@ nav.navbar-default {
 footer {
   color: gray;
   font-size: 12px;
-  margin-top: 70px;
+  margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center; }
@@ -3008,108 +3008,108 @@ footer {
     height: auto;
     width: 55px; }
 
-#my-profile-page {
-  padding-top: 25px; }
-  #my-profile-page h2 {
-    font-family: "Century Gothic", sans-serif; }
-  #my-profile-page h2:not(.h2-username) {
-    display: inline-block;
-    font-weight: 300;
-    letter-spacing: 0.5px; }
-  #my-profile-page #events-container, #my-profile-page .ranking-container {
-    height: 600px; }
-  #my-profile-page #events-container, #my-profile-page #profile-container {
-    background-color: #333333; }
-  #my-profile-page #events-container {
-    overflow-y: auto; }
-    #my-profile-page #events-container .event-placeholder {
-      background-color: #999999;
-      height: 110px;
-      width: 188px; }
-    #my-profile-page #events-container h5 {
-      margin-bottom: 0;
-      margin-left: 2px; }
-      #my-profile-page #events-container h5.event-name {
-        margin-top: 7.5px; }
-      #my-profile-page #events-container h5.event-description {
-        color: #bfbfbf;
-        margin-top: 1px;
-        padding-bottom: 20px; }
-  #my-profile-page #profile-container {
-    overflow-x: hidden;
-    height: 546px;
-    width: 100%; }
-    #my-profile-page #profile-container img, #my-profile-page #profile-container h2 {
-      margin-top: 50px; }
-    #my-profile-page #profile-container img#avatar {
-      height: 150px;
-      width: 150px; }
-    #my-profile-page #profile-container h2 {
-      font-weight: 600;
-      letter-spacing: 1px; }
-    #my-profile-page #profile-container #edit-profile-link-container {
-      margin-top: 55px; }
-      #my-profile-page #profile-container #edit-profile-link-container a {
-        font-size: 16px; }
-        #my-profile-page #profile-container #edit-profile-link-container a:hover {
-          color: white; }
-    #my-profile-page #profile-container #profile-details {
-      background-color: black;
-      height: 100px;
-      margin-top: -118px; }
-      #my-profile-page #profile-container #profile-details h5 {
-        top: 44px;
-        position: relative;
-        text-align: center; }
-    #my-profile-page #profile-container #projects-container h3 {
-      margin-top: 30px; }
-    #my-profile-page #profile-container #projects-container .project-thumbnail-placeholder {
-      background-color: #999999;
-      margin-bottom: 38px;
-      height: 75px;
-      width: 130px; }
-    #my-profile-page #profile-container #projects-container h5 {
-      margin-top: 0;
-      margin-bottom: 1px; }
-      #my-profile-page #profile-container #projects-container h5:last-child {
-        color: #bfbfbf; }
-  #my-profile-page ul.nav-tabs {
-    border-bottom: 1px solid black;
-    margin-top: 0; }
-    #my-profile-page ul.nav-tabs li a {
-      background-color: #111111;
-      border-right: 1px solid black;
-      border-bottom: 3px solid black;
-      border-radius: 0;
-      font-family: "Century Gothic", sans-serif;
-      font-size: 1.5em; }
-      #my-profile-page ul.nav-tabs li a.my-profile-link:hover {
-        border-left: 1px solid #333333; }
-      #my-profile-page ul.nav-tabs li a:not(.my-profile-link) {
-        border-left: 1px solid black; }
-  #my-profile-page .ranking-container {
-    overflow-y: auto; }
-    #my-profile-page .ranking-container h2 {
-      margin-top: 0; }
-    #my-profile-page .ranking-container img {
-      height: auto;
-      width: 60px; }
-  #my-profile-page #most-viewed-container {
-    height: 275px;
-    margin-top: 40px;
-    overflow-y: auto;
-    overflow-x: hidden; }
-    #my-profile-page #most-viewed-container .video-thumbnail-placeholder {
-      display: inline-block; }
-      #my-profile-page #most-viewed-container .video-thumbnail-placeholder:not(:first-child) {
-        margin-left: 30px; }
-    #my-profile-page #most-viewed-container h5.video-title {
-      margin-top: 7.5px;
-      margin-bottom: 0; }
-    #my-profile-page #most-viewed-container h5:last-child {
+#my-profile-page h2 {
+  font-family: "Century Gothic", sans-serif; }
+#my-profile-page h2:not(.h2-username) {
+  display: inline-block;
+  font-weight: 300;
+  letter-spacing: 0.5px; }
+#my-profile-page #events-container, #my-profile-page .ranking-container {
+  height: 600px; }
+#my-profile-page #events-container, #my-profile-page #profile-container {
+  background-color: #333333; }
+#my-profile-page #events-container {
+  overflow-y: auto; }
+  #my-profile-page #events-container .event-placeholder {
+    background-color: #999999;
+    height: 110px;
+    width: 188px; }
+  #my-profile-page #events-container h5 {
+    margin-bottom: 0;
+    margin-left: 2px; }
+    #my-profile-page #events-container h5.event-name {
+      margin-top: 7.5px; }
+    #my-profile-page #events-container h5.event-description {
       color: #bfbfbf;
       margin-top: 1px;
-      margin-bottom: 40px; }
+      padding-bottom: 20px; }
+#my-profile-page #profile-container {
+  overflow-x: hidden;
+  height: 546px;
+  width: 100%; }
+  #my-profile-page #profile-container img, #my-profile-page #profile-container h2 {
+    margin-top: 50px; }
+  #my-profile-page #profile-container img#avatar {
+    height: 150px;
+    width: 150px; }
+  #my-profile-page #profile-container h2 {
+    font-weight: 600;
+    letter-spacing: 1px; }
+  #my-profile-page #profile-container #edit-profile-link-container {
+    margin-top: 55px; }
+    #my-profile-page #profile-container #edit-profile-link-container a {
+      font-size: 16px; }
+      #my-profile-page #profile-container #edit-profile-link-container a:hover {
+        color: white; }
+  #my-profile-page #profile-container #profile-details {
+    background-color: black;
+    height: 100px;
+    margin-top: -118px; }
+    #my-profile-page #profile-container #profile-details h5 {
+      top: 44px;
+      position: relative;
+      text-align: center; }
+  #my-profile-page #profile-container #projects-container h3 {
+    margin-top: 30px; }
+  #my-profile-page #profile-container #projects-container .project-thumbnail-placeholder {
+    background-color: #999999;
+    margin-bottom: 38px;
+    height: 75px;
+    width: 130px; }
+  #my-profile-page #profile-container #projects-container h5 {
+    margin-top: 0;
+    margin-bottom: 1px; }
+    #my-profile-page #profile-container #projects-container h5:last-child {
+      color: #bfbfbf; }
+#my-profile-page ul.nav-tabs {
+  border-bottom: 1px solid black;
+  margin-top: 0; }
+  #my-profile-page ul.nav-tabs li a {
+    background-color: #111111;
+    border-right: 1px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 0;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 1.5em; }
+    #my-profile-page ul.nav-tabs li a.my-profile-link:hover {
+      border-left: 1px solid #333333; }
+    #my-profile-page ul.nav-tabs li a:not(.my-profile-link) {
+      border-left: 1px solid black; }
+#my-profile-page .ranking-container {
+  overflow-y: auto; }
+  #my-profile-page .ranking-container h2 {
+    margin-top: 0; }
+  #my-profile-page .ranking-container img {
+    height: auto;
+    width: 60px; }
+#my-profile-page #most-viewed-container {
+  height: 275px;
+  margin-top: 40px;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  #my-profile-page #most-viewed-container h2 {
+    margin-top: 0; }
+  #my-profile-page #most-viewed-container .video-thumbnail-placeholder {
+    display: inline-block; }
+    #my-profile-page #most-viewed-container .video-thumbnail-placeholder:not(:first-child) {
+      margin-left: 30px; }
+  #my-profile-page #most-viewed-container h5.video-title {
+    margin-top: 7.5px;
+    margin-bottom: 0; }
+  #my-profile-page #most-viewed-container h5:last-child {
+    color: #bfbfbf;
+    margin-top: 1px;
+    margin-bottom: 40px; }
 
 .active-nav-tab, ul.nav-tabs li a:hover, ul.nav-tabs li a:focus {
   background-color: #333333 !important;
@@ -3153,16 +3153,18 @@ footer {
     background: -moz-radial-gradient(60%, circle, black 30%, transparent 90%);
     background: -o-radial-gradient(60%, circle, black 30%, transparent 90%);
     background: radial-gradient(circle at 60%, black 30%, transparent 90%); }
-    nav.navbar-default .navbar-header {
+    nav.navbar-default .navbar-header:not(.logged-in) {
       width: 100%; }
-      nav.navbar-default .navbar-header img#musiclaps-logo {
-        margin-top: 25px;
-        height: 37.5px;
-        width: auto; }
-      nav.navbar-default .navbar-header img#sword-slash, nav.navbar-default .navbar-header img#uzumasa-limelight-logo {
-        margin-top: 18px;
-        height: 75px;
-        width: auto; }
+    nav.navbar-default .navbar-header.logged-in {
+      float: left; }
+    nav.navbar-default .navbar-header img#musiclaps-logo {
+      margin-top: 25px;
+      height: 37.5px;
+      width: auto; }
+    nav.navbar-default .navbar-header img#sword-slash, nav.navbar-default .navbar-header img#uzumasa-limelight-logo {
+      margin-top: 18px;
+      height: 75px;
+      width: auto; }
     nav.navbar-default .navbar-collapse {
       background: -webkit-radial-gradient(50%, circle, black, transparent 90%);
       background: -moz-radial-gradient(50%, circle, black, transparent 90%);
@@ -3172,9 +3174,13 @@ footer {
       margin-top: 12px;
       position: relative;
       z-index: 1; }
-      nav.navbar-default .navbar-collapse ul.navbar-right:not(#logged-in).navbar-nav li a.login, nav.navbar-default .navbar-collapse ul.navbar-right:not(#logged-in).navbar-nav li a.register {
+      nav.navbar-default .navbar-collapse ul.navbar-right:not(.logged-in).navbar-nav li a.login, nav.navbar-default .navbar-collapse ul.navbar-right:not(.logged-in).navbar-nav li a.register {
         margin-top: 5px;
         text-align: center; }
+    nav.navbar-default ul.navbar-right.logged-in {
+      float: right; }
+      nav.navbar-default ul.navbar-right.logged-in li {
+        display: inline-block; }
 
   .landing-page img.cherry-blossoms:first-child {
     left: 0; }
@@ -3187,7 +3193,10 @@ footer {
   .landing-page .third-video-row {
     margin-top: -445px; }
   .landing-page .ranking-container {
-    visibility: hidden; } }
+    visibility: hidden; }
+
+  #events-container {
+    display: none; } }
 @media only screen and (max-width: 991px) {
   nav.navbar-default .navbar-header img#musiclaps-logo {
     margin-left: 5px; }

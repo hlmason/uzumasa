@@ -138,7 +138,6 @@
 }
 
 #my-profile-page {
-	padding-top: 25px;
 	h2 {
 		font-family: $font-family--primary;
 	}
@@ -259,6 +258,9 @@
 		margin-top: 40px;
 		overflow-y: auto;
 		overflow-x: hidden;
+		h2 {
+			margin-top: 0;
+		}
 		.video-thumbnail-placeholder { // Placeholder
 			display: inline-block;
 			&:not(:first-child) {
