@@ -3198,15 +3198,27 @@ footer {
   #events-container {
     display: none; } }
 @media only screen and (max-width: 991px) {
-  nav.navbar-default .navbar-header img#musiclaps-logo {
+  nav.navbar-default .navbar-header:not(.logged-in) img#musiclaps-logo {
     margin-left: 5px; }
+  nav.navbar-default .navbar-header.logged-in {
+    float: none;
+    width: 100%; }
+  nav.navbar-default ul.navbar-right.logged-in {
+    float: left;
+    margin-top: 0;
+    margin-left: 0; }
+    nav.navbar-default ul.navbar-right.logged-in li#welcome-username {
+      margin-top: 0; }
 
   .landing-page img.cherry-blossoms:first-child {
     left: -125px; }
   .landing-page img.cherry-blossoms:last-child {
     right: -90px; }
   .landing-page .glyphicon-chevron-up {
-    margin-left: 5%; } }
+    margin-left: 5%; }
+
+  #my-profile-page-nav-section {
+    padding-top: 25px; } }
 @media only screen and (max-width: 796px) {
   .col-xs-12.col-sm-4 {
     padding-left: 0; } }

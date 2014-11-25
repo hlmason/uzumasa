@@ -54,7 +54,7 @@
 
 			</div>
 
-			<div class="col-xs-12 col-lg-7">
+			<div class="col-xs-12 col-lg-7" id="my-profile-page-nav-section">
 				<ul class="nav nav-tabs">
 					<li>
 						<a class="my-profile-link 

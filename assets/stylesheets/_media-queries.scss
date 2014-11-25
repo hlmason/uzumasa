@@ -102,10 +102,28 @@
 // Bootstrap's "sm" (small) viewport width
 	nav {
 		&.navbar-default {
-			.navbar-header {
-				img {
-					&#musiclaps-logo {
-						margin-left: 5px;
+			.navbar-header { // Search bar and logos
+				&:not(.logged-in) {
+					img {
+						&#musiclaps-logo {
+							margin-left: 5px;
+						}
+					}
+				}
+				&.logged-in {
+					float: none;
+					width: 100%;
+				}
+			}
+			ul.navbar-right { // "Welcome..." and "Log out"
+				&.logged-in {
+					float: left;
+					margin-top: 0;
+					margin-left: 0;
+					li {
+						&#welcome-username {
+							margin-top: 0;
+						}
 					}
 				}
 			}
@@ -126,6 +144,10 @@
 		.glyphicon-chevron-up {
 			margin-left: 5%;
 		}
+	}
+
+	#my-profile-page-nav-section {
+		padding-top: 25px;
 	}
 }
 
