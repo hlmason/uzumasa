@@ -2977,7 +2977,7 @@ footer {
   margin-left: 40%;
   top: 15px; }
 .landing-page .second-video-row {
-  margin-top: -384px; }
+  margin-top: -394px; }
 .landing-page .third-video-row {
   margin-top: -145px; }
 .landing-page h4 {
@@ -3181,7 +3181,13 @@ footer {
   .landing-page img.cherry-blossoms:last-child {
     right: 35px; }
   .landing-page .glyphicon-chevron-up {
-    margin-left: 15%; } }
+    margin-left: 15%; }
+  .landing-page .second-video-row {
+    margin-top: -700px; }
+  .landing-page .third-video-row {
+    margin-top: -445px; }
+  .landing-page .ranking-container {
+    visibility: hidden; } }
 @media only screen and (max-width: 991px) {
   nav.navbar-default .navbar-header img#musiclaps-logo {
     margin-left: 5px; }
@@ -3192,3 +3198,19 @@ footer {
     right: -90px; }
   .landing-page .glyphicon-chevron-up {
     margin-left: 5%; } }
+@media only screen and (max-width: 796px) {
+  .col-xs-12.col-sm-4 {
+    padding-left: 0; } }
+@media only screen and (max-width: 767px) {
+  h1 {
+    text-align: center; }
+
+  .col-xs-12.col-sm-4 {
+    padding-left: 15px; }
+    .col-xs-12.col-sm-4 .video-thumbnail-placeholder {
+      margin-right: auto;
+      margin-left: auto; }
+    .col-xs-12.col-sm-4 h4 {
+      text-align: center; }
+      .col-xs-12.col-sm-4 h4:last-child {
+        margin-bottom: 40px; } }

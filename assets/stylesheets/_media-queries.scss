@@ -68,6 +68,15 @@
 		.glyphicon-chevron-up {
 			margin-left: 15%;
 		}
+		.second-video-row {
+			margin-top: -700px;
+		}
+		.third-video-row {
+			margin-top: -445px;
+		}
+		.ranking-container {
+			visibility: hidden;
+		}
 	}
 
 }
@@ -86,7 +95,6 @@
 		}
 	}
 
-
 	.landing-page {
 		img {
 			&.cherry-blossoms {
@@ -100,6 +108,31 @@
 		}
 		.glyphicon-chevron-up {
 			margin-left: 5%;
+		}
+	}
+}
+
+@media only screen and (max-width: 796px) {
+	.col-xs-12.col-sm-4 {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	h1 { // "Most Viewed"
+		text-align: center;
+	}
+	.col-xs-12.col-sm-4 {
+		padding-left: 15px;
+		.video-thumbnail-placeholder {
+			margin-right: auto;
+			margin-left: auto;
+		}
+		h4 {
+			text-align: center;
+			&:last-child {
+				margin-bottom: 40px;
+			}
 		}
 	}
 }
