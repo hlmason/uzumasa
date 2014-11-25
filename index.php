@@ -46,16 +46,20 @@
 					</div>
 
 					<div class="col-xs-12 col-sm-4">
-						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+						<div>
+							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+								<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							</div>
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
 						<h4>Video description...</h4><!-- Hard-coded placeholder -->
 					</div>
 
 					<div class="col-xs-12 col-sm-4">
-						<div class="video-thumbnail-placeholder"><!-- Placeholder -->
-							<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+						<div>
+							<div class="video-thumbnail-placeholder"><!-- Placeholder -->
+								<img src="<?php echo BASE_URL; ?>assets/images/play-button.png" alt="play button">
+							</div>
 						</div>
 						<h4 class="video-title">Video Title</h4><!-- Hard-coded placeholder -->
 						<h4>Video description...</h4><!-- Hard-coded placeholder -->
