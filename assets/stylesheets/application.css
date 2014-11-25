@@ -3224,7 +3224,9 @@ footer {
   #my-profile-page #my-profile-page-nav-section {
     padding-top: 25px; }
   #my-profile-page .ranking-container {
-    width: 96%; } }
+    width: 96%; }
+  #my-profile-page #most-viewed-container {
+    display: none; } }
 @media only screen and (max-width: 796px) {
   .col-xs-12.col-sm-4 {
     padding-left: 0; } }
