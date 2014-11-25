@@ -3195,8 +3195,12 @@ footer {
   .landing-page .ranking-container {
     visibility: hidden; }
 
-  #events-container {
-    display: none; } }
+  #my-profile-page #events-container {
+    display: none; }
+  #my-profile-page .ranking-container {
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 97%; } }
 @media only screen and (max-width: 991px) {
   nav.navbar-default .navbar-header:not(.logged-in) img#musiclaps-logo {
     margin-left: 5px; }
@@ -3217,8 +3221,10 @@ footer {
   .landing-page .glyphicon-chevron-up {
     margin-left: 5%; }
 
-  #my-profile-page-nav-section {
-    padding-top: 25px; } }
+  #my-profile-page #my-profile-page-nav-section {
+    padding-top: 25px; }
+  #my-profile-page .ranking-container {
+    width: 96%; } }
 @media only screen and (max-width: 796px) {
   .col-xs-12.col-sm-4 {
     padding-left: 0; } }

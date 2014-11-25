@@ -148,10 +148,10 @@
 
 							<div class="col-xs-5">
 								<div class="row">
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-5 col-lg-6">
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-7 col-lg-6">
 										<h5>Project Name</h5><!-- Hard-coded placeholder -->
 										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
@@ -160,10 +160,10 @@
 
 							<div class="col-xs-5">
 								<div class="row">
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-5 col-lg-6">
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-7 col-lg-6">
 										<h5>Project Name</h5><!-- Hard-coded placeholder -->
 										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
@@ -176,10 +176,10 @@
 
 							<div class="col-xs-5">
 								<div class="row">
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-5 col-lg-6">
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-7 col-lg-6">
 										<h5>Project Name</h5><!-- Hard-coded placeholder -->
 										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
@@ -188,10 +188,10 @@
 
 							<div class="col-xs-5">
 								<div class="row">
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-5 col-lg-6">
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-7 col-lg-6">
 										<h5>Project Name</h5><!-- Hard-coded placeholder -->
 										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
@@ -204,10 +204,10 @@
 
 							<div class="col-xs-5">
 								<div class="row">
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-5 col-lg-6">
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-7 col-lg-6">
 										<h5>Project Name</h5><!-- Hard-coded placeholder -->
 										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>
@@ -216,10 +216,10 @@
 
 							<div class="col-xs-5">
 								<div class="row">
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-5 col-lg-6">
 										<div class="project-thumbnail-placeholder"></div><!-- Placeholder -->
 									</div>
-									<div class="col-xs-6">
+									<div class="col-xs-6 col-md-7 col-lg-6">
 										<h5>Project Name</h5><!-- Hard-coded placeholder -->
 										<h5>Project description...</h5><!-- Hard-coded placeholder -->
 									</div>

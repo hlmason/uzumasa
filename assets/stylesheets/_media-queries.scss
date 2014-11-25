@@ -92,8 +92,15 @@
 		}
 	}
 
-	#events-container {
-		display: none;
+	#my-profile-page {
+		#events-container {
+			display: none;
+		}
+		.ranking-container {
+			margin-top: 25px;
+			margin-left: 15px;
+			width: 97%;
+		}
 	}
 
 }
@@ -146,8 +153,13 @@
 		}
 	}
 
-	#my-profile-page-nav-section {
-		padding-top: 25px;
+	#my-profile-page {
+		#my-profile-page-nav-section {
+			padding-top: 25px;
+		}
+		.ranking-container {
+			width: 96%;
+		}
 	}
 }
 
