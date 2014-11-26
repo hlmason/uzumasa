@@ -25,6 +25,7 @@
 				background-color: $font-color--dark-gray;
 			}
 			h3, h4 { // Rank number and username
+				font-family: $font-family--primary;
 				margin-top: 0;
 				margin-bottom: 0;
 				span { // # claps
@@ -37,6 +38,19 @@
 			img {
 				float: right;
 			}
+		}
+	}
+	.video-thumbnail-placeholder { // Placeholder
+		background-color: #444;
+		height: 144px;
+		width: 245px;
+		img { // Play button
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			padding-top: 44.5px; // (144px (height of YouTube player) / 2) - (55px (height of play button) / 2)
+			height: auto; // Not sure why 55px doesn't work here
+			width: 55px;
 		}
 	}
 }
@@ -104,10 +118,12 @@
 		margin-bottom: 0;
 		margin-left: 2px;
 		&.video-title { // No idea why "&:first-child" doesn't work but "&:last-child" works
+			font-family: $font-family--primary;
 			margin-top: 15px;
 		}
 		&:last-child { // Video description
 			color: darken($font-color--body, 30%);
+			font-family: $font-family--secondary;
 			margin-top: 2px;
 		}
 	}
@@ -123,19 +139,6 @@
 	}
 }
 
-.video-thumbnail-placeholder { // Placeholder
-	background-color: #444;
-	height: 144px;
-	width: 245px;
-	img { // Play button
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-		padding-top: 44.5px; // (144px (height of YouTube player) / 2) - (55px (height of play button) / 2)
-		height: auto; // Not sure why 55px doesn't work here
-		width: 55px;
-	}
-}
 
 #my-profile-page {
 	h2:not(.h2-username) {
@@ -160,10 +163,12 @@
 			margin-bottom: 0;
 			margin-left: 2px;
 			&.event-name {
+				font-family: $font-family--primary;
 				margin-top: 7.5px;
 			}
 			&.event-description {
 				color: darken($font-color--body, 25%);
+				font-family: $font-family--secondary;
 				margin-top: 1px;
 				padding-bottom: 20px;
 			}
@@ -198,13 +203,15 @@
 			height: 100px;
 			margin-top: -118px;
 			h5 { // Placeholder
-				top: 44px;
+				font-family: $font-family--secondary;
 				position: relative;
 				text-align: center;
+				top: 44px;
 			}
 		}
 		#projects-container {
 			h3 {
+				font-family: $font-family--primary;
 				margin-top: 30px;
 			}
 			.project-thumbnail-placeholder { // Placeholder
@@ -216,8 +223,12 @@
 			h5 {
 				margin-top: 0;
 				margin-bottom: 1px;
-				&:last-child {
+				&:first-child { // Project Name
+					font-family: $font-family--primary;
+				}
+				&:last-child { // Project description
 					color: darken($font-color--body, 25%);
+					font-family: $font-family--secondary;
 				}
 			}
 		}
@@ -272,11 +283,13 @@
 		}
 		h5 {
 			&.video-title { // No idea why "&:first-child" doesn't work but "&:last-child" works
+				font-family: $font-family--primary;
 				margin-top: 7.5px;
 				margin-bottom: 0;
 			}
 			&:last-child {
 				color: darken($font-color--body, 25%);
+				font-family: $font-family--secondary;
 				margin-top: 1px;
 				margin-bottom: 40px;
 			}

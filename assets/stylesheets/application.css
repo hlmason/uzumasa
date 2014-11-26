@@ -2706,7 +2706,7 @@ a:hover, a:focus {
 a:hover {
   cursor: pointer; }
 
-a, h1, h2, h3, footer {
+a, h1, h2, footer {
   font-family: "Century Gothic", sans-serif; }
 
 h1, h3, h4 {
@@ -2714,9 +2714,6 @@ h1, h3, h4 {
 
 h1, h3, h4, h5, button {
   font-weight: 300; }
-
-h4, h5 {
-  font-family: sans-serif; }
 
 label {
   font-weight: 100; }
@@ -2930,6 +2927,7 @@ footer {
   .landing-page .ranking-container .user-stats:nth-child(odd), #my-profile-page .ranking-container .user-stats:nth-child(odd) {
     background-color: #222222; }
   .landing-page .ranking-container .user-stats h3, .landing-page .ranking-container .user-stats h4, #my-profile-page .ranking-container .user-stats h3, #my-profile-page .ranking-container .user-stats h4 {
+    font-family: "Century Gothic", sans-serif;
     margin-top: 0;
     margin-bottom: 0; }
     .landing-page .ranking-container .user-stats h3 span, .landing-page .ranking-container .user-stats h4 span, #my-profile-page .ranking-container .user-stats h3 span, #my-profile-page .ranking-container .user-stats h4 span {
@@ -2939,6 +2937,17 @@ footer {
       font-size: 0.85714em; }
   .landing-page .ranking-container .user-stats img, #my-profile-page .ranking-container .user-stats img {
     float: right; }
+.landing-page .video-thumbnail-placeholder, #my-profile-page .video-thumbnail-placeholder {
+  background-color: #444;
+  height: 144px;
+  width: 245px; }
+  .landing-page .video-thumbnail-placeholder img, #my-profile-page .video-thumbnail-placeholder img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 44.5px;
+    height: auto;
+    width: 55px; }
 
 .landing-page #youtube-player-placeholder, .landing-page #youtube-player-advanced-settings-placeholder {
   margin-right: auto;
@@ -2988,9 +2997,11 @@ footer {
   margin-bottom: 0;
   margin-left: 2px; }
   .landing-page h4.video-title {
+    font-family: "Century Gothic", sans-serif;
     margin-top: 15px; }
   .landing-page h4:last-child {
     color: #b3b3b3;
+    font-family: sans-serif;
     margin-top: 2px; }
 .landing-page .ranking-container {
   margin-top: 40px; }
@@ -2999,18 +3010,6 @@ footer {
   .landing-page .ranking-container img {
     height: auto;
     width: 100px; }
-
-.video-thumbnail-placeholder {
-  background-color: #444;
-  height: 144px;
-  width: 245px; }
-  .video-thumbnail-placeholder img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 44.5px;
-    height: auto;
-    width: 55px; }
 
 #my-profile-page h2:not(.h2-username) {
   display: inline-block;
@@ -3030,9 +3029,11 @@ footer {
     margin-bottom: 0;
     margin-left: 2px; }
     #my-profile-page #events-container h5.event-name {
+      font-family: "Century Gothic", sans-serif;
       margin-top: 7.5px; }
     #my-profile-page #events-container h5.event-description {
       color: #bfbfbf;
+      font-family: sans-serif;
       margin-top: 1px;
       padding-bottom: 20px; }
 #my-profile-page #profile-container {
@@ -3058,10 +3059,12 @@ footer {
     height: 100px;
     margin-top: -118px; }
     #my-profile-page #profile-container #profile-details h5 {
-      top: 44px;
+      font-family: sans-serif;
       position: relative;
-      text-align: center; }
+      text-align: center;
+      top: 44px; }
   #my-profile-page #profile-container #projects-container h3 {
+    font-family: "Century Gothic", sans-serif;
     margin-top: 30px; }
   #my-profile-page #profile-container #projects-container .project-thumbnail-placeholder {
     background-color: #999999;
@@ -3071,8 +3074,11 @@ footer {
   #my-profile-page #profile-container #projects-container h5 {
     margin-top: 0;
     margin-bottom: 1px; }
+    #my-profile-page #profile-container #projects-container h5:first-child {
+      font-family: "Century Gothic", sans-serif; }
     #my-profile-page #profile-container #projects-container h5:last-child {
-      color: #bfbfbf; }
+      color: #bfbfbf;
+      font-family: sans-serif; }
 #my-profile-page ul.nav-tabs {
   border-bottom: 1px solid black;
   margin-top: 0; }
@@ -3107,10 +3113,12 @@ footer {
     #my-profile-page #most-viewed-container .video-thumbnail-placeholder:not(:first-child) {
       margin-left: 30px; }
   #my-profile-page #most-viewed-container h5.video-title {
+    font-family: "Century Gothic", sans-serif;
     margin-top: 7.5px;
     margin-bottom: 0; }
   #my-profile-page #most-viewed-container h5:last-child {
     color: #bfbfbf;
+    font-family: sans-serif;
     margin-top: 1px;
     margin-bottom: 40px; }
 

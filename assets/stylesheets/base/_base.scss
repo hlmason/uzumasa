@@ -27,7 +27,7 @@ a:hover {
 	cursor: pointer;
 }
 
-a, h1, h2, h3, footer {
+a, h1, h2, footer {
 	font-family: $font-family--primary;
 }
 
@@ -37,10 +37,6 @@ h1, h3, h4 {
 
 h1, h3, h4, h5, button {
 	font-weight: 300;
-}
-
-h4, h5 {
-	font-family: $font-family--secondary;
 }
 
 label {
