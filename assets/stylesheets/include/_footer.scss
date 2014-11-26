@@ -1,6 +1,6 @@
 footer {
 	color: darken($font-color--body, 50%);
-	font-size: 0.86em; // target (12px) / context (14px) = result (0.86em)
+	font-size: em(12px);
 	margin-top: 50px;
 	padding-top: 30px;
 	padding-bottom: 30px;

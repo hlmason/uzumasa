@@ -41,7 +41,7 @@ nav {
 		}
 		ul.navbar-right {
 			&:not(.logged-in) {
-				font-size: 1.43em; // target (20px) / context (14px) = result (1.43em)
+				font-size: em(20px);
 				letter-spacing: 0.5px;
 				text-transform: uppercase;
 				&.navbar-nav li a { // This level of specificity is necessary
@@ -57,10 +57,11 @@ nav {
 			&.logged-in {
 				li {
 					&#welcome-username, input {
-						font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
+						font-size: em(16px);
 					}	
 					&#welcome-username {
 						color: $font-color--medium-light-gray;
+						font-family: $font-family--primary;
 						margin-top: 35px;
 						margin-right: 30px;
 					}

@@ -44,10 +44,9 @@ h4, h5 {
 }
 
 label {
-	font-size: 1em;
 	font-weight: 100;
 }
 
 button { // Can't list "input" here because of search bar
-	font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
+	font-size: em(16px);
 }

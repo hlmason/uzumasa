@@ -31,7 +31,7 @@
 					color: $font-color--medium-gray;
 					display: block; // Keeps '# claps' below username 
 					font-family: $font-family--secondary;
-					font-size: 0.85em; // target (14px) / context (16.47px) = result (0.85em)
+					font-size: em(12px);
 				}
 			}
 			img {
@@ -113,7 +113,7 @@
 	}
 	.ranking-container {
 		margin-top: 40px;
-		h1 {
+		h1 { // "Ranking"
 			margin-top: 0;
 		}
 		img {
@@ -187,7 +187,7 @@
 		#edit-profile-link-container {
 			margin-top: 55px;
 			a { // "Edit Profile"
-				font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
+				font-size: em(16px);
 				&:hover {
 					color: white;
 				}
@@ -230,7 +230,7 @@
 			border-right: 1px solid black;
 			border-bottom: 3px solid black;
 			border-radius: 0;
-			font-size: 1.5em;
+			font-size: 1.5em; // Same as h2's ("Events", "Ranking", and "Most Viewed")
 			&.my-profile-link:hover { // "My Profile"
 				border-left: 1px solid $font-color--dark-medium-gray;
 			}

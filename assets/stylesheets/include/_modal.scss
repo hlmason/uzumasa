@@ -21,13 +21,13 @@
 			border: none;
 			color: $font-color--medium-gray;
 			float: right;
-			font-size: 21px;
+			font-size: em(21px);
 			&:hover, &:focus {
 				color: white;	
 			}
 		}
 		h2 {
-			font-size: 1.71em; // target (24px) / context (14px) = result (1.71em)
+			font-size: em(24px);
 			font-weight: normal;
 			letter-spacing: 1px;
 		}
@@ -75,7 +75,6 @@
 				}
 			}
 			#checkbox-agree {
-				font-size: 1em;
 				input {
 					margin-top: 4px; // Keeps text at the same height as checkbox
 					width: 12px; // Keeps text inline with checkbox
@@ -92,7 +91,7 @@
 			}
 			.password-req {
 				color: orange;
-				font-size: 0.86em; // target (12px) / context (14px) = result (0.86em)
+				font-size: em(12px);
 				margin-bottom: 2px;
 			}
 			.captcha {
@@ -109,7 +108,7 @@
 		&#username-and-password {
 			padding-top: 0;
 			input { // "Username" and "Password"
-				font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
+				font-size: em(16px);
 				height: 35px;
 				width: 90%;
 				&:first-child { // "Username" only
@@ -132,7 +131,7 @@
 		}
 		a { // "Forgot Password"
 			float: left;
-			font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
+			font-size: em(16px);
 			margin-top: 5px;
 			margin-left: 15px;
 		}
@@ -144,7 +143,7 @@
 			padding-left: 15px;
 		}
 		input { // "Register" and "Log in"
-			font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
+			font-size: em(16px);
 			font-weight: 300;
 			margin-right: 15px;
 			padding-right: 12px;

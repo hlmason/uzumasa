@@ -2719,11 +2719,10 @@ h4, h5 {
   font-family: sans-serif; }
 
 label {
-  font-size: 1em;
   font-weight: 100; }
 
 button {
-  font-size: 1.14em; }
+  font-size: 1.14286em; }
 
 nav.navbar {
   height: 105px; }
@@ -2758,7 +2757,7 @@ nav.navbar-default {
       height: 100px;
       width: auto; }
   nav.navbar-default ul.navbar-right:not(.logged-in) {
-    font-size: 1.43em;
+    font-size: 1.42857em;
     letter-spacing: 0.5px;
     text-transform: uppercase; }
     nav.navbar-default ul.navbar-right:not(.logged-in).navbar-nav li a {
@@ -2768,9 +2767,10 @@ nav.navbar-default {
         nav.navbar-default ul.navbar-right:not(.logged-in).navbar-nav li a.register:hover, nav.navbar-default ul.navbar-right:not(.logged-in).navbar-nav li a.login:hover {
           color: white; }
   nav.navbar-default ul.navbar-right.logged-in li#welcome-username, nav.navbar-default ul.navbar-right.logged-in li input {
-    font-size: 1.14em; }
+    font-size: 1.14286em; }
   nav.navbar-default ul.navbar-right.logged-in li#welcome-username {
     color: #999999;
+    font-family: "Century Gothic", sans-serif;
     margin-top: 35px;
     margin-right: 30px; }
   nav.navbar-default ul.navbar-right.logged-in li input {
@@ -2805,11 +2805,11 @@ nav.navbar-default {
       border: none;
       color: #888888;
       float: right;
-      font-size: 21px; }
+      font-size: 1.5em; }
       .modal-content .modal-header button.close:hover, .modal-content .modal-header button.close:focus {
         color: white; }
     .modal-content .modal-header h2 {
-      font-size: 1.71em;
+      font-size: 1.71429em;
       font-weight: normal;
       letter-spacing: 1px; }
     .modal-content .modal-header.email-registration {
@@ -2843,20 +2843,18 @@ nav.navbar-default {
           display: block; }
         .modal-content .modal-body.email-registration label.email {
           margin-top: 10px; }
-      .modal-content .modal-body.email-registration #checkbox-agree {
-        font-size: 1em; }
-        .modal-content .modal-body.email-registration #checkbox-agree input {
-          margin-top: 4px;
-          width: 12px; }
-        .modal-content .modal-body.email-registration #checkbox-agree span {
-          font-weight: 100; }
+      .modal-content .modal-body.email-registration #checkbox-agree input {
+        margin-top: 4px;
+        width: 12px; }
+      .modal-content .modal-body.email-registration #checkbox-agree span {
+        font-weight: 100; }
       .modal-content .modal-body.email-registration input {
         width: 90%; }
         .modal-content .modal-body.email-registration input.checkbox {
           display: inline-block; }
       .modal-content .modal-body.email-registration .password-req {
         color: orange;
-        font-size: 0.86em;
+        font-size: 0.85714em;
         margin-bottom: 2px; }
       .modal-content .modal-body.email-registration .captcha img {
         margin-top: 25px;
@@ -2867,7 +2865,7 @@ nav.navbar-default {
     .modal-content .modal-body#username-and-password {
       padding-top: 0; }
       .modal-content .modal-body#username-and-password input {
-        font-size: 1.14em;
+        font-size: 1.14286em;
         height: 35px;
         width: 90%; }
         .modal-content .modal-body#username-and-password input:first-child {
@@ -2883,7 +2881,7 @@ nav.navbar-default {
       width: 90%; }
     .modal-content .modal-footer a {
       float: left;
-      font-size: 1.14em;
+      font-size: 1.14286em;
       margin-top: 5px;
       margin-left: 15px; }
     .modal-content .modal-footer button, .modal-content .modal-footer input {
@@ -2897,7 +2895,7 @@ nav.navbar-default {
       padding-right: 15px;
       padding-left: 15px; }
     .modal-content .modal-footer input {
-      font-size: 1.14em;
+      font-size: 1.14286em;
       font-weight: 300;
       margin-right: 15px;
       padding-right: 12px;
@@ -2905,7 +2903,7 @@ nav.navbar-default {
 
 footer {
   color: gray;
-  font-size: 0.86em;
+  font-size: 0.85714em;
   margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -2938,7 +2936,7 @@ footer {
       color: #888888;
       display: block;
       font-family: sans-serif;
-      font-size: 0.85em; }
+      font-size: 0.85714em; }
   .landing-page .ranking-container .user-stats img, #my-profile-page .ranking-container .user-stats img {
     float: right; }
 
@@ -3052,7 +3050,7 @@ footer {
   #my-profile-page #profile-container #edit-profile-link-container {
     margin-top: 55px; }
     #my-profile-page #profile-container #edit-profile-link-container a {
-      font-size: 1.14em; }
+      font-size: 1.14286em; }
       #my-profile-page #profile-container #edit-profile-link-container a:hover {
         color: white; }
   #my-profile-page #profile-container #profile-details {

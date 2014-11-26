@@ -1,0 +1,5 @@
+// Calculate em values
+
+@function em($target, $context: 14px) {
+	@return ($target / $context) * 1em;
+}
