@@ -27,7 +27,7 @@
 			}
 		}
 		h2 {
-			font-size: 24px;
+			font-size: 1.71em; // target (24px) / context (14px) = result (1.71em)
 			font-weight: normal;
 			letter-spacing: 1px;
 		}
@@ -75,11 +75,13 @@
 				}
 			}
 			#checkbox-agree {
-				font-size: 14px;
+				font-size: 1em;
 				input {
-					font-weight: 300;
 					margin-top: 4px; // Keeps text at the same height as checkbox
 					width: 12px; // Keeps text inline with checkbox
+				}
+				span { // For some reason nesting this inside of "input" does not work
+					font-weight: 100;
 				}
 			}
 			input {
@@ -90,7 +92,7 @@
 			}
 			.password-req {
 				color: orange;
-				font-size: 12px;
+				font-size: 0.86em; // target (12px) / context (14px) = result (0.86em)
 				margin-bottom: 2px;
 			}
 			.captcha {
@@ -107,6 +109,7 @@
 		&#username-and-password {
 			padding-top: 0;
 			input { // "Username" and "Password"
+				font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
 				height: 35px;
 				width: 90%;
 				&:first-child { // "Username" only
@@ -129,7 +132,7 @@
 		}
 		a { // "Forgot Password"
 			float: left;
-			font-size: 16px;
+			font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
 			margin-top: 5px;
 			margin-left: 15px;
 		}
@@ -137,11 +140,12 @@
 			@include register-and-log-in-out-buttons;
 		}
 		button { // "Register with Email"
-			font-size: 16px;
 			padding-right: 15px;
 			padding-left: 15px;
 		}
 		input { // "Register" and "Log in"
+			font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
+			font-weight: 300;
 			margin-right: 15px;
 			padding-right: 12px;
 			padding-left: 12px;

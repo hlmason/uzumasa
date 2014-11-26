@@ -17,9 +17,6 @@ img {
 
 ul {
 	padding-left: 0;
-	// li { 
-	// 	list-style-type: none;
-	// }
 }
 
 a:hover, a:focus {
@@ -30,22 +27,27 @@ a:hover {
 	cursor: pointer;
 }
 
+a, h1, h2, h3, footer {
+	font-family: $font-family--primary;
+}
+
 h1, h3, h4 {
 	letter-spacing: 0.5px;
 }
 
-h1, h3, h4, h5, label {
+h1, h3, h4, h5, button {
 	font-weight: 300;
 }
 
-h1, h3 {
-	font-family: $font-family--primary;
-}
-
-h4, h5, footer {
+h4, h5 {
 	font-family: $font-family--secondary;
 }
 
-label, input {
-	font-size: 16px;
+label {
+	font-size: 1em;
+	font-weight: 100;
+}
+
+button { // Can't list "input" here because of search bar
+	font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
 }

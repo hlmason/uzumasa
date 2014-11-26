@@ -27,11 +27,11 @@
 			h3, h4 { // Rank number and username
 				margin-top: 0;
 				margin-bottom: 0;
-				span {
+				span { // # claps
 					color: $font-color--medium-gray;
-					display: block;
+					display: block; // Keeps '# claps' below username 
 					font-family: $font-family--secondary;
-					font-size: 14px;
+					font-size: 0.85em; // target (14px) / context (16.47px) = result (0.85em)
 				}
 			}
 			img {
@@ -138,9 +138,6 @@
 }
 
 #my-profile-page {
-	h2 {
-		font-family: $font-family--primary;
-	}
 	h2:not(.h2-username) {
 		display: inline-block;
 		font-weight: 300;
@@ -190,7 +187,7 @@
 		#edit-profile-link-container {
 			margin-top: 55px;
 			a { // "Edit Profile"
-				font-size: 16px;
+				font-size: 1.14em; // target (16px) / context (14px) = result (1.14em)
 				&:hover {
 					color: white;
 				}
@@ -233,7 +230,6 @@
 			border-right: 1px solid black;
 			border-bottom: 3px solid black;
 			border-radius: 0;
-			font-family: $font-family--primary;
 			font-size: 1.5em;
 			&.my-profile-link:hover { // "My Profile"
 				border-left: 1px solid $font-color--dark-medium-gray;
@@ -247,6 +243,13 @@
 		overflow-y: auto;
 		h2 { // "Ranking"
 			margin-top: 0;
+		}
+		.user-stats {
+			h4 {
+				span { // # claps
+					margin-top: 2px; // To match the default space above "claps"
+				}
+			}
 		}
 		img {
 			height: auto;
@@ -298,7 +301,6 @@
 #privacy-page, #terms-page {
 	padding-top: 100px;
 	h1 {
-		font-size: 30px;
 		font-weight: 600;
 		letter-spacing: 1px;
 		margin-bottom: 0;
