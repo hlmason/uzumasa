@@ -2738,10 +2738,12 @@ nav.navbar-default {
         background-color: black; }
     nav.navbar-default .navbar-header a.navbar-brand {
       margin-top: 35px; }
-      nav.navbar-default .navbar-header a.navbar-brand span#glyphicon-search-container {
+      nav.navbar-default .navbar-header a.navbar-brand form input {
+        color: black; }
+      nav.navbar-default .navbar-header a.navbar-brand form span#glyphicon-search-container {
         background-color: #444;
         padding: 3.5px 0 3.5px 5px; }
-        nav.navbar-default .navbar-header a.navbar-brand span#glyphicon-search-container .glyphicon-search {
+        nav.navbar-default .navbar-header a.navbar-brand form span#glyphicon-search-container .glyphicon-search {
           color: white;
           padding-right: 5px; }
     nav.navbar-default .navbar-header img#musiclaps-logo {
@@ -2845,6 +2847,8 @@ nav.navbar-default {
         width: 12px; }
       .modal-content .modal-body.email-registration #checkbox-agree span {
         font-weight: 100; }
+      .modal-content .modal-body.email-registration input, .modal-content .modal-body.email-registration option {
+        color: #222222; }
       .modal-content .modal-body.email-registration input {
         width: 90%; }
         .modal-content .modal-body.email-registration input.checkbox {
@@ -2862,6 +2866,7 @@ nav.navbar-default {
     .modal-content .modal-body#username-and-password {
       padding-top: 0; }
       .modal-content .modal-body#username-and-password input {
+        color: #222222;
         font-size: 1.14286em;
         height: 35px;
         width: 90%; }

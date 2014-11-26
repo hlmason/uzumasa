@@ -16,12 +16,17 @@ nav {
 			}
 			a.navbar-brand {
 				margin-top: 35px;
-				span#glyphicon-search-container {
-					background-color: #444;
-					padding: 3.5px 0 3.5px 5px;
-					.glyphicon-search {
-						color: white;
-						padding-right: 5px;
+				form {
+					input { // Search bar
+						color: black;
+					}
+					span#glyphicon-search-container {
+						background-color: #444;
+						padding: 3.5px 0 3.5px 5px;
+						.glyphicon-search {
+							color: white;
+							padding-right: 5px;
+						}
 					}
 				}
 			}
