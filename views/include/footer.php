@@ -16,5 +16,5 @@
     <script src="<?php echo BASE_URL; ?>assets/javascripts/_main.js"></script><!-- Preloads background image and resizes each 'slide' to be 100% of the browser viewport (for parallax scrolling) -->
     <script src="<?php echo BASE_URL; ?>assets/javascripts/index.js"></script>
 
-    </body>
+</body>
 </html>

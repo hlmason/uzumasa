@@ -200,6 +200,6 @@
 
 	</div>
 
-<?php
-	include(ROOT_PATH . 'views/include/footer.php');
-?>
+	<?php
+		include(ROOT_PATH . 'views/include/footer.php');
+	?>
