@@ -1,10 +1,10 @@
 .fade {
-	opacity: 0; // Makes modal fade non-transparent
-	-webkit-transition: opacity 0s linear; // Speeds up modal display
-	   -moz-transition: opacity 0s linear; // Speeds up modal display
-	    -ms-transition: opacity 0s linear; // Speeds up modal display
-	     -o-transition: opacity 0s linear; // Speeds up modal display
-	        transition: opacity 0s linear; // Speeds up modal display
+	opacity: 0; /* Makes modal fade non-transparent */
+	-webkit-transition: opacity 0s linear; /* Speeds up modal display */
+	   -moz-transition: opacity 0s linear; /* Speeds up modal display */
+	    -ms-transition: opacity 0s linear; /* Speeds up modal display */
+	     -o-transition: opacity 0s linear; /* Speeds up modal display */
+	        transition: opacity 0s linear; /* Speeds up modal display */
 }
 
 .modal-content {

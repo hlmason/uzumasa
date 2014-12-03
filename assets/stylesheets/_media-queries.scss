@@ -12,7 +12,7 @@
 }
 
 @media only screen and (max-width: 1199px) {
-// Bootstrap's "md" (medium) viewport width
+/* Bootstrap's "md" (medium) viewport width */
 	nav {
 		&.navbar-default {
 			@include base-radial-gradient;
@@ -106,7 +106,7 @@
 }
 
 @media only screen and (max-width: 991px) {
-// Bootstrap's "sm" (small) viewport width
+/* Bootstrap's "sm" (small) viewport width */
 	nav {
 		&.navbar-default {
 			.navbar-header { // Search bar and logos
