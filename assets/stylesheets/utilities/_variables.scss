@@ -19,6 +19,8 @@ $font-color--medium-gray: #888;
 $font-color--medium-light-gray: #999;
 $font-color--light-gray: lighten(#999, 5%);
 
+$font-color--description: darken($font-color--body, 25%);
+
 // Path to Assets
 
 $path--rel: '../../assets/images';
