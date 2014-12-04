@@ -10,6 +10,7 @@
 .modal-content {
 	background-color: $font-color--dark-gray;
 	font-family: $font-family--primary;
+	margin-top: 152px;
 	opacity: 0.95;
 	a:hover { // "Forgot Password", "Terms of Service", and "Privacy Policy"
 		color: lighten(#337AB7, 10%);

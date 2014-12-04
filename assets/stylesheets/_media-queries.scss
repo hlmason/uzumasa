@@ -1,5 +1,4 @@
 @media only screen and (max-width: 1621px) {
-	
 	nav {
 		&.navbar-default {
 			background: -webkit-radial-gradient(70%, circle, black 30%, transparent 90%);
@@ -8,11 +7,10 @@
 			background:       radial-gradient(circle at 70%, black 30%, transparent 90%);
 		}
 	}
-
 }
 
 @media only screen and (max-width: 1199px) {
-/* Bootstrap's "md" (medium) viewport width */
+/* Bootstrap's "md" (medium) viewport width and where menu collapses */
 	nav {
 		&.navbar-default {
 			@include base-radial-gradient;
@@ -67,6 +65,10 @@
 		}
 	}
 
+	.modal-content {
+		margin-top: 110px;
+	}
+
 	.landing-page {
 		img {
 			&.cherry-blossoms {
@@ -102,7 +104,6 @@
 			width: 97%;
 		}
 	}
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -176,6 +177,7 @@
 	h1 { // "Most Viewed"
 		text-align: center;
 	}
+	
 	.col-xs-12.col-sm-4 {
 		padding-left: 15px;
 		.video-thumbnail-placeholder {

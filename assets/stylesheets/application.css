@@ -2800,6 +2800,7 @@ nav.navbar-default {
 .modal-content {
   background-color: #222222;
   font-family: "Century Gothic", sans-serif;
+  margin-top: 152px;
   opacity: 0.95; }
   .modal-content a:hover {
     color: #4f93ce; }
@@ -3179,7 +3180,7 @@ footer {
     background: -o-radial-gradient(70%, circle, black 30%, transparent 90%);
     background: radial-gradient(circle at 70%, black 30%, transparent 90%); } }
 @media only screen and (max-width: 1199px) {
-  /* Bootstrap's "md" (medium) viewport width */
+  /* Bootstrap's "md" (medium) viewport width and where menu collapses */
   nav.navbar-default {
     background: -webkit-radial-gradient(60%, circle, black 30%, transparent 90%);
     background: -moz-radial-gradient(60%, circle, black 30%, transparent 90%);
@@ -3213,6 +3214,9 @@ footer {
       float: right; }
       nav.navbar-default ul.navbar-right.logged-in li {
         display: inline-block; }
+
+  .modal-content {
+    margin-top: 110px; }
 
   .landing-page img.cherry-blossoms:first-child {
     left: 0; }
