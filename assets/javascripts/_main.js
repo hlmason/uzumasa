@@ -21,7 +21,9 @@
 	function adjustWindow(){
 		
 		// Init Skrollr
-		
+		var s = skrollr.init({
+		    forceHeight: false // Get rid of black slide at the end
+		});
 		
 		// Get window size
 	    winH = $window.height();
@@ -35,7 +37,7 @@
 	    $slide.height(winH);
 	    
 	    // Refresh Skrollr after resizing our sections
-	    
+	    s.refresh($('.homeSlide'));
 	    
 	}
 		
