@@ -18,9 +18,9 @@
 		}, 800);
 	});
 	
-	function adjustWindow(){
+	function adjustWindow() {
 		
-		// Init Skrollr
+		// Initialize Skrollr
 		var s = skrollr.init({
 		    forceHeight: false // Get rid of black slide at the end
 		});
@@ -36,7 +36,7 @@
 	    // Resize our slides
 	    $slide.height(winH);
 	    
-	    // Refresh Skrollr after resizing our sections
+	    // Refresh Skrollr after resizing sections
 	    s.refresh($('.homeSlide'));
 	    
 	}
