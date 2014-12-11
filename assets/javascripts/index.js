@@ -4,11 +4,11 @@ var nav = $('nav');
 
 $('.glyphicon-chevron-down').click(function () {
 	$('#youtube-player-placeholder, #slide-down-button, #youtube-player-advanced-settings, .cherry-blossoms').hide(); // So that YouTube player does not visibly move downward
-	slide_1.slideUp('slow');
+	slide_1.slideUp();
 	nav.removeClass('navbar-fixed-top'); // So that slide 2 does not go above navbar
 });
 $('.glyphicon-chevron-up').click(function () {
 	nav.addClass('navbar-fixed-top');
-	slide_1.slideDown('slow');
+	slide_1.slideDown();
 	$('#youtube-player-placeholder, #slide-down-button, #youtube-player-advanced-settings, .cherry-blossoms').show();
 });
