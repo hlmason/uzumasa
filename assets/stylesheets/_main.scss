@@ -242,7 +242,7 @@
 			border-bottom: 3px solid black;
 			border-radius: 0;
 			font-size: 1.5em; // Same as h2's ("Events", "Ranking", and "Most Viewed")
-			&.my-profile-link:hover { // "My Profile"
+			&:first-child:hover { // "My Profile" / Not sure why ":first-child" works here but not below
 				border-left: 1px solid $font-color--dark-medium-gray;
 			}
 			&:not(.my-profile-link) { // Not "My Profile"
